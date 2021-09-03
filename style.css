@@ -13,10 +13,10 @@ h1 {
 
 }
 .col-md-3 {
-	background-color: rgb(255, 255, 255); /*bianco quasi trapasrente*/
+	background-color: rgb(255, 255, 255) !important; /*bianco quasi trapasrente*/
 	/*background-color: rgb(165, 42, 42);*/ /*marrone*/
 	/*background-color: rgb(255, 255, 128);*/ /*giallo del titolo*/
-	/*color: black;*/
+	color: black;
 	/*border: 1px solid white;*/
 }
 .row {
