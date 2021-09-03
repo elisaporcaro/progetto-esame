@@ -13,11 +13,8 @@ h1 {
 
 }
 .col-md-3 {
-	background-color: rgb(255, 255, 255, 0.4); /*bianco quasi trapasrente*/
-	/*background-color: rgb(165, 42, 42);*/ /*marrone*/
-	/*background-color: rgb(255, 255, 128);*/ /*giallo del titolo*/
+	background-color: rgb(255, 255, 255, 0.4); 
 	color: black;
-	/*border: 1px solid white;*/
 }
 .row {
 	padding-bottom: 2%;
@@ -43,6 +40,9 @@ h1 {
 }
 #intro {
 	padding-top: 10px;
+}
+strong {
+	color: #ffff80;
 }
 footer {
 	background-color: brown;
