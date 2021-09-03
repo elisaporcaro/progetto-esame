@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leonardo da Vinci-Museo Vasariano</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Elisa Maria Porcaro">
+	<!-- Includo Bootstraps css-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<!-- foglio di stile -->
+	<link rel="stylesheet" type="text/css" href="stile.css">
+	<!-- font da google fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=WindSong:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>			
+		<!-- Navbar-->
+			<!-- collapse plugin-->
+			<div class="container-fluid">
+				<div class="fixed-top">
+					<div class="collapse" id="navbarToggleExternalContent">
+						<div class="bg-dark p-4">
+							<span class="text-muted">
+								<!-- lista-->
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<a class="nav-link active" href="#">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Il Progetto</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Le Sale</a>
+									</li>
+									<li class="nav-item">
+										<div class="btn-group dropright">
+											<button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">I Percorsi</button>
+											<div class="dropdown-menu">
+													<ul>
+														<li><a href="">Per aree geografiche</a></li>
+														<li><a href="">Per tipologia di opere</a></li>
+														<li><a href="">Per datazione</a></li>
+														<li><a href="">Per soggetto</a></li>
+													</ul>
+<!-- sistema lo stile del dropdown laterale qui sopra e di tutto il resto in realtà -->
+											</div>
+										</div>
+									</li>
+									<li>
+										<form class="form-inline" class="d-flex justify-content-end">
+											<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+											<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
+											</button>
+										</form>
+									</li>
+								</ul>
+							</span>
+						</div>
+					</div>
+					<nav class="navbar navbar-dark">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					</nav>
+				</div>
+			</div>
+
+			<!-- titolo -->
+			<div id="titolo" class="container">
+				<h1>Museo Virtuale delle Vite Vasariane</h1>
+<!-- io vorrei qui il search ma non si riesce a mettere tutto su una linea e abbastanza distanziato dal titolo -->
+			</div>
+	</header>
+
+	<h2 id="titolo_item">Sala Leonardo da Vinci</h2>
+
+		<div class="container"> <!--SOSTITUIRE TUTTE LE IMG CON I LINK FINALI-->
+			<div class="row">
+				<!-- aside -->
+				<div class="col-md-2"></div>
+				<!-- blocco principale -->
+				<div class="col-md-7">
+					<div class="accordion" id="accordionExample">
+						<div class="card">
+							<div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+									<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Scheda dell'artista</button>
+								</h2>
+							</div>
+							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+								<div class="card-body">
+									<img id="img2" src="img/leo.jpg" alt="autoritratto di Leonardo da Vinci" title="Leonardo da Vinci">
+									<table id="tab_leo">
+										<tr>
+											<td class="tipo">prova 1</td>
+											<td class="nome">ggewq</td>
+											<td class="percorsi">das ewqa</td>
+										</tr>
+										<tr>
+											<td class="tipo">kwiei oijoijo</td>
+											<td class="nome">lii  uhui ui</td>
+											<td class="percorsi">qqqq qhfioqj</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<h2 class="mb-0">
+									<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Opere di Leonardo</button>
+								</h2>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+								<div class="card-body">
+									<div class="container">
+						<div class="card mb-3">
+							<div class="row no-gutters"><!-- SOSTITUIRE LE IMG CON I LINK FINALI-->
+								<div class="col-md-4">
+									<img class="item" src="img/gioconda.jpg" alt="Monna Lisa, Leonardo da Vinci">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">La Gioconda</h5>
+										<p></p>
+										<a href="">
+											<p class="card-text">leggi la scheda dell'opera</p>
+										</a>									</div>
+								</div>
+								<div class="col-md-4">
+									<img class="item" src="img/battesimo.jpg" alt="Battesimo di Cristo, Verrocchio e Leonardo da Vinci">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">Battesimo di Cristo</h5>
+										<p></p>
+										<a href="">
+											<p class="card-text">leggi la scheda dell'opera</p>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<img class="item" src="img/cenacolo.jpg" alt="Cenacolo, Leonardo da Vinci">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">Cenacolo</h5>
+										<p></p>
+										<a href="">
+											<p class="card-text">leggi la scheda dell'opera</p>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<img class="item" src="..." alt="...">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">??</h5>
+										<p></p>
+										<a href="">
+											<p class="card-text">leggi la scheda dell'opera</p>
+										</a>
+									</div>
+								</div>
+							</div>
+<!-- modifica lo stile del pagination -->
+							<nav aria-label="Page navigation example">
+								<ul class="pagination justify-content-center pagination pagination-sm">
+									<li class="page-item">
+										<a class="page-link" href="#" aria-label="Previous">
+											<span aria-hidden="true">&laquo;</span>
+										</a>
+									</li>
+									<li class="page-item"><a class="page-link" href="#">1</a></li>
+									<li class="page-item"><a class="page-link" href="#">2</a></li>
+									<li class="page-item"><a class="page-link" href="#">3</a></li>
+									<li class="page-item">
+										<a class="page-link" href="#" aria-label="Next">
+											<span aria-hidden="true">&raquo;</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingThree">
+								<h2 class="mb-0">
+									<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Museo Leonardo da Vinci</button>
+								</h2>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+								<div class="card-body">
+									<iframe id="leo2" src="http://www.leonardo3.net/it/leonardo-da-vinci/"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <h2>Sala Leonardo da Vinci</h2>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-3">
+								<img id="img2" src="img/leo.jpg" alt="autoritratto di Leonardo da Vinci" title="Leonardo da Vinci">
+							</div>
+							<div class="col-md-9">
+								<iframe id="leo2" src="http://www.leonardo3.net/it/leonardo-da-vinci/"></iframe>
+							</div>
+						</div>
+					</div>
+				-->
+				</div>
+				<div class="col-md-3">
+					<h3>Correlati</h3>
+					<div class="card">
+						<img class="correl" src="img/verrocchio.jpg" class="card-img-top" alt="Andrea del Verrocchio">
+						<div class="card-body">
+							<h5 class="card-title">Andrea del Verrocchio</h5>
+							<a href="#" class="btn btn-primary">Visita la Sala</a>
+						</div>
+					</div>
+					<div class="card">
+						<img class="correl" src="img/michelangelo.jpg" class="card-img-top" alt="Michelangelo Buonarroti">
+						<div class="card-body">
+							<h5 class="card-title">Michelangelo Buonarroti</h5>
+							<a href="#" class="btn btn-primary">Visita la Sala</a>
+						</div>
+					</div>
+					<div class="card">
+						<img class="correl" src="img/botticelli.jpg" class="card-img-top" alt="Sandro Botticelli">
+						<div class="card-body">
+							<h5 class="card-title">Sandro Botticelli</h5>
+							<a href="#" class="btn btn-primary">Visita la Sala</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer-->
+			<footer>
+				<p>questo sarà un blocchetto colorato con tutte le info necessarie sul progetto, vedi quelle dei siti seri</p>
+			</footer>
+
+
+	<!-- Includo jQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+	integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+	crossorigin="anonymous"></script>
+	<!-- Includo Bootstrap js -->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
