@@ -41,6 +41,9 @@ h1 {
 	background-color: #0d0d0d;
 	color: white; /*sistemare meglio*/
 }
+#intro {
+	padding-top: 10px;
+}
 footer {
 	background-color: brown;
 }
