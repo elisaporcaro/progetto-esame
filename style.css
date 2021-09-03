@@ -39,10 +39,19 @@ h1 {
 	color: white; /*sistemare meglio*/
 }
 #intro {
-	padding-top: 10px;
+	padding-top: 15px;
 }
 strong {
 	color: #d9d9d9;
+}
+a:link {
+	color: #d9d9d9;
+}
+a:visited {
+	color: #eaaeae;
+}
+a:active {
+	color: #8e2525;
 }
 footer {
 	background-color: brown;
