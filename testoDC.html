@@ -95,10 +95,29 @@
 			</div>
 	</header>
 
-	<div id="testo" class="container-fluid">
+	<div id="testo" class="container">
 		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-8">
+			<div class="col-md-2">
+<!-- cambiare i colori dietro la breadcrumb e i bottoni -->
+					<!-- breadcrumb -->
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item">
+								<a href="#">Home</a>
+							</li>
+							<li class="breadcrumb-item active" aria-current="page">Sale</li>
+						</ol>
+					</nav>
+
+					<br/>
+
+					<h3>Scarica i metadati:</h3>
+					<div class="btn-group-vertical">
+						<button type="button" class="btn-block">Formato XML/TEI</button>
+						<button type="button" class="btn-block">Formato XML/DC</button>
+					</div>
+				</div>
+			<div class="col-md-7">
 				<div class="container">
 					<iframe src="testoTEI.xml" title="capitolo delle Vite di Vasari dedicato a Leonardo da Vinci"></iframe>
 				</div>
@@ -131,26 +150,20 @@
 		</div>
 	</div>
 
-				<!-- footer-->
+	<!-- footer-->
 			<footer>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-6">
-							<p>&copy;Elisa Maria Porcaro</p>
-							<p>Progetto per l'esame di Digital Humanities e Patrimonio Culturale</p>
+						<div class="col-md-4">
+							<p>Progetto per l'esame di Digital Humanities e Patrimonio Culturale A.A.2020/21</p>
 							<p>prof.ssa: Francesca Tomasi</p>
 							<p>tutor: Martina Dello Buono</p>
-							<p>A.A. 2020/21</p>
 						</div>
-						<div class="col-md-6">
-							<p>Iscriviti alla Newsletter
-								<div class="input-group mb-2">
-									<div class="input-group-prepend">
-										<span class="input-group-text" id="basic-addon1">@</span>
-									</div>
-									<input type="text" class="form-control" placeholder="email" aria-label="Username" aria-describedby="basic-addon1">
-								</div>
-							</p>
+						<div class="col-md-4">
+							<p>&copy;Elisa Maria Porcaro</p>
+							<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a><br/>Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribuzione 4.0 Internazionale</a>
+						</div>
+						<div class="col-md-4">
 							<p>
 								Seguici su:
 								<a href="">
@@ -169,7 +182,14 @@
 									</svg>
 								</a>
 							</p>
-							<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a><br/>Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribuzione 4.0 Internazionale</a>
+							<p>Iscriviti alla Newsletter
+								<div class="input-group mb-2">
+									<div class="input-group-prepend">
+										<span class="input-group-text" id="basic-addon1">@</span>
+									</div>
+									<input type="text" class="form-control" placeholder="email" aria-label="Username" aria-describedby="basic-addon1">
+								</div>
+							</p>
 						</div>
 					</div>
 				</div>

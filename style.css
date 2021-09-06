@@ -9,15 +9,28 @@ h1 {
 	padding-top: 1%;
 	color: #ffff80;
 }
+h2 {
+	display: block;
+	text-align: center;
+	background-color: brown;
+}
+h3 {
+	color: #ffff80;
+	font-size: 20px;
+}
+.row {
+	padding-bottom: 2%;
+}
 .col-md-2 {
-
+	background-color: rgb(255, 255, 255, 0.4); 
+	color: black;
 }
 .col-md-3 {
 	background-color: rgb(255, 255, 255, 0.4); 
 	color: black;
 }
-.row {
-	padding-bottom: 2%;
+.btn-group-vertical {
+	padding-bottom: 10%;
 }
 
 /*pagina home-------------------*/
@@ -45,10 +58,10 @@ strong {
 	color: #d9d9d9;
 }
 a:link {
-	color: #d9d9d9;
+	color: #d55d5d;
 }
 a:visited {
-	color: #eaaeae;
+	color: #8e2525;
 }
 a:active {
 	color: #8e2525;
@@ -57,13 +70,32 @@ footer {
 	background-color: brown;
 }
 
-/*pagina di leonardo------------*/
+/*pagina sala ------------------*/
+#striscia {
+	padding: 20px;
+	display: block;
+	margin: auto;
+}
+.breadcrumb {
+	margin-top: 10px;
+	background-color: gb(255, 255, 255, 0.4);
+}
+
+/*pagina  leonardo -------------*/
 #leo {
 	width: 130px;
 	float: left;
 }
+hr {
+	border: 0.5px solid white;
+}
 .item {
-	width: 100px;
+	height: 140px;
+	display: block;
+	margin: auto;
+}
+tr {
+	border-bottom: 0.5px solid white;
 }
 #descr {
 	float: right;
@@ -71,6 +103,7 @@ footer {
 h5 {
 	color: #ffff80;
 }
+
 .correl {
 	width: 90px;
 	padding-left: 10%;
@@ -80,11 +113,17 @@ h5 {
 	background-color: #101010;
 	border-color: white;
 }
-
-/*pagina sale-------------------*/
-#striscia {
-	padding-bottom: 2%;
+.card-text {
+	color: white;
 }
+.card-leggi {
+	color: #d55d5d;
+}
+.col-md-8 .card-body {
+	border-bottom: 1px solid white;
+	height: 150px;
+}
+
 /*pagina testo -----------------*/
 iframe {
 	height: 625px;
@@ -99,11 +138,6 @@ iframe {
 	display: block;
 	margin: auto;
 }
-#titolo_item {
-	display: block;
-	text-align: center;
-	background-color: brown;
-}
 td {
 	width: 100%;
 	border-collapse: collapse;
@@ -117,12 +151,8 @@ td {
 .percorsi {
 	width: 50%;
 }
-/*------------------------------*/
+.schede {
+	color: white;
+	font-size: 14px;
+}
 
-#img2 {
-	width: 200px;
-	float: left;
-}
-#tab_leo {
-	float: right;
-}

@@ -77,31 +77,113 @@
 		<div class="container"> <!--SOSTITUIRE TUTTE LE IMG CON I LINK FINALI-->
 			<div class="row">
 				<!-- aside -->
-				<div class="col-md-2"></div>
+				<div class="col-md-2">
+					<!-- breadcrumb -->
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item">
+								<a href="#">Home</a>
+							</li>
+							<li class="breadcrumb-item" aria-current="page">Sale</li>
+							<li class="breadcrumb-item active" aria-current="page">Leonardo da Vinci</li>
+						</ol>
+					</nav>
+
+					<br/>
+					<h3>Cerca in questa pagina:</h3>
+					<div class="btn-group-vertical">
+						<button type="button" class="btn-block">Per luogo</button>
+						<button type="button" class="btn-block">Per tecnica artistica</button>
+						<button type="button" class="btn-block">Per datazione</button>
+						<button type="button" class="btn-block">Per istituzione conservatrice</button>
+					</div>
+
+					<br/>
+					<h3>Cerca nel sito:</h3>
+					<div class="btn-group-vertical">
+						<button type="button" class="btn-block">Per luogo</button>
+						<button type="button" class="btn-block">Per tecnica artistica</button>
+						<button type="button" class="btn-block">Per datazione</button>
+						<button type="button" class="btn-block">Per istituzione conservatrice</button>
+					</div>
+				</div>
 				<!-- blocco principale -->
 				<div class="col-md-7">
 					<div class="accordion" id="accordionExample">
 						<div class="card">
+							<!-- primo blocco -->
 							<div class="card-header" id="headingOne">
 								<h2 class="mb-0">
+<!-- come si fa a cambiare colore al testo???? -->
 									<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Scheda dell'artista</button>
 								</h2>
 							</div>
 							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 								<div class="card-body">
-									<img id="img2" src="img/leo.jpg" alt="autoritratto di Leonardo da Vinci" title="Leonardo da Vinci">
+									<img id="leo" src="img/leo.jpg" alt="autoritratto di Leonardo da Vinci" title="Leonardo da Vinci">
 									<table id="tab_leo">
 										<tr>
-											<td class="tipo">prova 1</td>
-											<td class="nome">ggewq</td>
-											<td class="percorsi">das ewqa</td>
+											<td class="tipo">Nome:</td>
+											<td class="nome">Leonardo da Vinci</td>
+											<td class="percorsi"></td>
 										</tr>
 										<tr>
-											<td class="tipo">kwiei oijoijo</td>
-											<td class="nome">lii  uhui ui</td>
-											<td class="percorsi">qqqq qhfioqj</td>
+											<td class="tipo">Sesso:</td>
+											<td class="nome">M</td>
+											<td class="percorsi"></td>
+										</tr>
+										<tr>
+											<td class="tipo">Nazionalità:</td>
+											<td class="nome">italiana</td>
+											<td class="percorsi"></td>
+										</tr>
+										<tr>
+											<td class="tipo">Data di nascita:</td>
+											<td class="nome">15 aprile 1452</td>
+											<td class="percorsi">cerca per datazione</td>
+										</tr>
+										<tr>
+											<td class="tipo">Luogo di nascita:</td>
+											<td class="nome">Anchiano<a href="http://vocab.getty.edu/page/tgn/7029393" target="_blank"><sup>TGN</sup></a></td>
+											<td class="percorsi">cerca per luogo</td>
+										</tr>
+										<tr>
+											<td class="tipo">Data di morte:</td>
+											<td class="nome">2 maggio 1519</td>
+											<td class="percorsi">cerca per datazione</td>
+										</tr>
+										<tr>
+											<td class="tipo">Luogo di morte:</td>
+											<td class="nome">Amboise<a href="http://vocab.getty.edu/page/tgn/7008272" target="_blank"><sup>TGN</sup></a></td>
+											<td class="percorsi">cerca per luogo</td>
+										</tr>
+										<tr>
+											<td class="tipo">Attività:</td>
+											<td class="nome">pittore, scultore, architetto, scienziato, progettista</td>
+											<td class="percorsi"></td>
+										</tr>
+										<tr>
+											<td class="tipo">ID pagina Wikipedia:</td>
+											<td class="nome">Leonardo da Vinci<a href="https://it.wikipedia.org/wiki/Leonardo_da_Vinci" target="_blank"><sup>WIKIPEDIA</sup></a></td>
+											<td class="percorsi"></td>
 										</tr>
 									</table>
+									<div>
+										<hr/>
+										<p>Controllo di autorità:</p>
+										<ul>
+											<li>24604287<a href="http://viaf.org/viaf/24604287" target="_blank" target="Identificativo VIAF"><sup>VIAF</sup></a></li>
+											<li>0000 0001 2124 423X<a href="https://isni.org/isni/000000012124423X" target="_blank" target="Identificativo INSI"><sup>INSI</sup></a></li>
+											<li>IT\ICCU\CFIV\016816<a href="https://opac.sbn.it/opacsbn/opaclib?saveparams=false&db=solr_auth&select_db=solr_auth&searchForm=opac%2Ficcu%2Fauthority.jsp&resultForward=opac%2Ficcu%2Ffull_auth.jsp&do_cmd=search_show_cmd&sortquery=%2BBY%2B%2540attrset%2Bbib-1%2B%2B%2540attr%2B1%253D1003&sortlabel=&Invia=Avvia+la+ricerca&item:6003:Nome=leonardo+da+vinci&item:63:Note=&item:1016:Any=&item:6128:authority.nascita:4:4=&item:7128:authority.nascita:2:4=&item:6129:authority.morte:4:4=&item:7129:authority.morte:2:4=&filter_nocheck:6021:Tipo_nome=&item:1032:Codice_Auth=&nentries=1&fname=none&from=5" target="_blank" title="Identificativo del Sistema Bibliotecario Nazionale"><sup>SBN</sup></a></li>
+											<li>agent/base/146741<a href="https://www.europeana.eu/it/collections/person/146741-leonardo-da-vinci" target="_blank" title="Identificativo di Europeana"><sup>EUROPEANA</sup></a></li>
+											<li>n79034525<a href="http://id.loc.gov/authorities/names/n79034525" target="_blank"><sup>LCCN</sup></a></li>
+											<li>nid=118640445<a href="http://d-nb.info/gnd/118640445" target="_blank" title="Identificativo GDN"><sup>GND</sup></a></li>
+											<li>500010879<a href="http://vocab.getty.edu/page/ulan/500010879" target="_blank" title="Identificativo ULAN"></a></li>
+											<li>495/52424<a href="https://opac.vatlib.it/auth/detail/495_52424" target="_blank" title="Identificativo BAV"><sup>BAV</sup></a></li>
+											<li>cnp01469106<a href="http://thesaurus.cerl.org/record/cnp0146910" target="_blank" title="Identificativo CERL"><sup>CERL</sup></a></li>
+											<li>lccn-n79034525<a href="https://www.worldcat.org/identities/lccn-n79034525/" target="_blank" title="Identificativo WorldCat"><sup>WorldCat Identities</sup></a></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -122,10 +204,11 @@
 								<div class="col-md-8">
 									<div class="card-body">
 										<h5 class="card-title">La Gioconda</h5>
-										<p></p>
+										<p>olio su tavola, 1503-1506</p>
 										<a href="">
-											<p class="card-text">leggi la scheda dell'opera</p>
-										</a>									</div>
+											<p class="card-leggi">leggi la scheda dell'opera</p>
+										</a>
+									</div>
 								</div>
 								<div class="col-md-4">
 									<img class="item" src="img/battesimo.jpg" alt="Battesimo di Cristo, Verrocchio e Leonardo da Vinci">
@@ -133,9 +216,9 @@
 								<div class="col-md-8">
 									<div class="card-body">
 										<h5 class="card-title">Battesimo di Cristo</h5>
-										<p></p>
+										<p>olio e tempera su tavola, 1472-1475</p>
 										<a href="">
-											<p class="card-text">leggi la scheda dell'opera</p>
+											<p class="card-leggi">leggi la scheda dell'opera</p>
 										</a>
 									</div>
 								</div>
@@ -145,21 +228,21 @@
 								<div class="col-md-8">
 									<div class="card-body">
 										<h5 class="card-title">Cenacolo</h5>
-										<p></p>
+										<p>affresco, 1494-1498</p>
 										<a href="">
-											<p class="card-text">leggi la scheda dell'opera</p>
+											<p class="card-leggi">leggi la scheda dell'opera</p>
 										</a>
 									</div>
 								</div>
 								<div class="col-md-4">
-									<img class="item" src="..." alt="...">
+									<img class="item" src="img/m_garofano.jpg" alt="Madonna del Garofano">
 								</div>
 								<div class="col-md-8">
 									<div class="card-body">
-										<h5 class="card-title">??</h5>
-										<p></p>
+										<h5 class="card-title">Madonna del Garofano</h5>
+										<p>olio su tavola, 1478-1480</p>
 										<a href="">
-											<p class="card-text">leggi la scheda dell'opera</p>
+											<p class="card-leggi">leggi la scheda dell'opera</p>
 										</a>
 									</div>
 								</div>
@@ -200,18 +283,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- <h2>Sala Leonardo da Vinci</h2>
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-3">
-								<img id="img2" src="img/leo.jpg" alt="autoritratto di Leonardo da Vinci" title="Leonardo da Vinci">
-							</div>
-							<div class="col-md-9">
-								<iframe id="leo2" src="http://www.leonardo3.net/it/leonardo-da-vinci/"></iframe>
-							</div>
-						</div>
-					</div>
-				-->
+					
 				</div>
 				<div class="col-md-3">
 					<h3>Correlati</h3>
@@ -241,7 +313,47 @@
 		</div>
 		<!-- footer-->
 			<footer>
-				<p>questo sarà un blocchetto colorato con tutte le info necessarie sul progetto, vedi quelle dei siti seri</p>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-4">
+							<p>Progetto per l'esame di Digital Humanities e Patrimonio Culturale A.A.2020/21</p>
+							<p>prof.ssa: Francesca Tomasi</p>
+							<p>tutor: Martina Dello Buono</p>
+						</div>
+						<div class="col-md-4">
+							<p>&copy;Elisa Maria Porcaro</p>
+							<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a><br/>Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribuzione 4.0 Internazionale</a>
+						</div>
+						<div class="col-md-4">
+							<p>
+								Seguici su:
+								<a href="">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+										<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+									</svg>
+								</a>
+								<a href="">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+										<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+									</svg>
+								</a>
+								<a href="">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+										<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+									</svg>
+								</a>
+							</p>
+							<p>Iscriviti alla Newsletter
+								<div class="input-group mb-2">
+									<div class="input-group-prepend">
+										<span class="input-group-text" id="basic-addon1">@</span>
+									</div>
+									<input type="text" class="form-control" placeholder="email" aria-label="Username" aria-describedby="basic-addon1">
+								</div>
+							</p>
+						</div>
+					</div>
+				</div>
 			</footer>
 
 
