@@ -24,34 +24,26 @@
 								<!-- lista-->
 								<ul class="nav flex-column">
 									<li class="nav-item">
-										<a class="nav-link active" href="#">Home</a>
+										<a class="nav-link active" href="https://elisaporcaro.github.io/progetto-esame/#">Home</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#">Il Progetto</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#">Le Sale</a>
+										<a class="nav-link" href="sale.html">Le Sale</a>
 									</li>
 									<li class="nav-item">
 										<div class="btn-group dropright">
-											<button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">I Percorsi</button>
+											<button type="button" id="navlink" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">I Percorsi</button>
 											<div class="dropdown-menu">
 													<ul>
-														<li><a href="">Per aree geografiche</a></li>
-														<li><a href="">Per tipologia di opere</a></li>
+														<li><a href="">Per luogo</a></li>
+														<li><a href="">Per tecnica artistica</a></li>
 														<li><a href="">Per datazione</a></li>
-														<li><a href="">Per soggetto</a></li>
+														<li><a href="">Per istituzione conservatrice</a></li>
 													</ul>
-<!-- sistema lo stile del dropdown laterale qui sopra e di tutto il resto in realtà -->
 											</div>
 										</div>
-									</li>
-									<li>
-										<form class="form-inline" class="d-flex justify-content-end">
-											<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-											<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
-											</button>
-										</form>
 									</li>
 								</ul>
 							</span>
@@ -67,8 +59,17 @@
 
 			<!-- titolo -->
 			<div id="titolo" class="container">
-				<h1>Museo Virtuale delle Vite Vasariane</h1>
-<!-- io vorrei qui il search ma non si riesce a mettere tutto su una linea e bbastanza distanziato dal titolo -->
+				<div class="row">
+					<div class="col-md-10">
+						<h1>Museo Virtuale delle Vite Vasariane</h1>
+					</div>
+					<div class="col-md-2" id="cerca">
+						<!-- Search -->
+						<form class="form-inline" class="d-flex justify-content-end">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						</form>
+					</div>
+				</div>
 			</div>
 	</header>
 
@@ -80,7 +81,7 @@
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item">
-								<a href="#">Home</a>
+								<a href="https://elisaporcaro.github.io/progetto-esame/">Home</a>
 							</li>
 							<li class="breadcrumb-item active" aria-current="page">Sale</li>
 						</ol>
@@ -166,7 +167,7 @@
 											<li><a href="#">Piero della Franscesca</a></li>
 											<li><a href="#">Fra' Giovanni da Fiesole</a></li>
 											<li><a href="#">Lazaro Vasari</a></li>
-											<li><a href="#">Leonbattista Alberti</a></li>
+											<li><a href="#">Leon Battista Alberti</a></li>
 											<li><a href="#">Antonello da Messina</a></li>
 											<li><a href="#">Alessio Baldovinetti</a></li>
 											<li><a href="#">Vellano Padovano</a></li>
@@ -215,7 +216,7 @@
 								<div class="card card-body">
 									<a href="">
 										<ul>
-											<li><a href="#">Leonardo da Vinci</a></li>
+											<li><a href="pag_leo.html">Leonardo da Vinci</a></li>
 											<li><a href="#">Giorgione</a></li>
 											<li><a href="#">Antonio da Correggio</a></li>
 											<li><a href="#">Piero di Cosimo</a></li>
@@ -281,18 +282,18 @@
 		<div class="container-fluid">
 			<img id="striscia" src="img/striscia.png" alt="sale principali" usemap="#mappasale">
 			<map name="mappasale">
-				<area shape="rect" coords="0, 0, 86, 120" href="raffaello">
-				<area shape="rect" coords="87, 0, 173, 120" href="verrocchio">
-				<area shape="rect" coords="174, 0, 283, 120" href="botticelli">
-				<area shape="rect" coords="284, 0, 389, 120" href="brunelleschi">
-				<area shape="rect" coords="390, 0, 486, 120" href="giorgione">
-				<area shape="rect" coords="487, 0, 617, 120" href="uccello">
-				<area shape="rect" coords="618, 0, 731, 120" href="giotto">
-				<area shape="rect" coords="732, 0, 823, 120" href="perugino">
-				<area shape="rect" coords="824, 0, 900, 120" href="leonardo">
-				<area shape="rect" coords="902, 0, 983, 120" href="pdf">
-				<area shape="rect" coords="984, 0, 1083, 120" href="lba">
-				<area shape="rect" coords="1084, 0, 1188, 120" href="michelangelo">
+				<area shape="rect" coords="0, 0, 86, 120" href="raffaello" title="Sala Raffaello Sanzio">
+				<area shape="rect" coords="87, 0, 173, 120" href="verrocchio" title="Sala Andrea del Verrocchio">
+				<area shape="rect" coords="174, 0, 283, 120" href="botticelli" title="Sala Sandro Botticelli">
+				<area shape="rect" coords="284, 0, 389, 120" href="brunelleschi" title="Sala Filippo Brunelleschi">
+				<area shape="rect" coords="390, 0, 486, 120" href="giorgione" title="Sala Giorgione">
+				<area shape="rect" coords="487, 0, 617, 120" href="uccello" title="Sala Paolo Uccello">
+				<area shape="rect" coords="618, 0, 731, 120" href="giotto" title="Sala Giotto">
+				<area shape="rect" coords="732, 0, 823, 120" href="perugino" title="Sala Pietro Perugino">
+				<area shape="rect" coords="824, 0, 900, 120" href="pag_leo.html" title="Sala Leonardo da Vinci">
+				<area shape="rect" coords="902, 0, 983, 120" href="pdf" title="Sala Piero della Francesca">
+				<area shape="rect" coords="984, 0, 1083, 120" href="lba" title="Sala Leon Battista Alberti">
+				<area shape="rect" coords="1084, 0, 1188, 120" href="michelangelo" title="Sala Michelangelo Buonarroti">
 			</map>
 		</div>
 

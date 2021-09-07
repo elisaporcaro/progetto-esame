@@ -31,12 +31,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=WindSong:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<!-- titolo-->
-		<div class="container-fluid">
-			
-		</div>
-			
+	<header>			
 		<!-- Navbar-->
 			<!-- collapse plugin-->
 			<div class="container-fluid">
@@ -47,34 +42,26 @@
 								<!-- lista-->
 								<ul class="nav flex-column">
 									<li class="nav-item">
-										<a class="nav-link active" href="#">Home</a>
+										<a class="nav-link active" href="https://elisaporcaro.github.io/progetto-esame/#">Home</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#">Il Progetto</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#">Le Sale</a>
+										<a class="nav-link" href="sale.html">Le Sale</a>
 									</li>
 									<li class="nav-item">
 										<div class="btn-group dropright">
-											<button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">I Percorsi</button>
+											<button type="button" id="navlink" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">I Percorsi</button>
 											<div class="dropdown-menu">
 													<ul>
-														<li><a href="">Per aree geografiche</a></li>
-														<li><a href="">Per tipologia di opere</a></li>
+														<li><a href="">Per luogo</a></li>
+														<li><a href="">Per tecnica artistica</a></li>
 														<li><a href="">Per datazione</a></li>
-														<li><a href="">Per soggetto</a></li>
+														<li><a href="">Per istituzione conservatrice</a></li>
 													</ul>
-<!-- sistema lo stile del dropdown laterale qui sopra e di tutto il resto in realtà -->
 											</div>
 										</div>
-									</li>
-									<li>
-										<form class="form-inline" class="d-flex justify-content-end">
-											<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-											<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
-											</button>
-										</form>
 									</li>
 								</ul>
 							</span>
@@ -90,15 +77,24 @@
 
 			<!-- titolo -->
 			<div id="titolo" class="container">
-				<h1>Museo Virtuale delle Vite Vasariane</h1>
-<!-- io vorrei qui il search ma non si riesce a mettere tutto su una linea e bbastanza distanziato dal titolo -->
+				<div class="row">
+					<div class="col-md-10">
+						<h1>Museo Virtuale delle Vite Vasariane</h1>
+					</div>
+					<div class="col-md-2" id="cerca">
+						<!-- Search -->
+						<form class="form-inline" class="d-flex justify-content-end">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						</form>
+					</div>
+				</div>
 			</div>
 	</header>
 
+	<h2>Capitolo 3.1: Leonardo da Vinci</h2>
 	<div id="testo" class="container">
 		<div class="row">
 			<div class="col-md-2">
-<!-- cambiare i colori dietro la breadcrumb e i bottoni -->
 					<!-- breadcrumb -->
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">

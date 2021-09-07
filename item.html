@@ -24,34 +24,26 @@
 								<!-- lista-->
 								<ul class="nav flex-column">
 									<li class="nav-item">
-										<a class="nav-link active" href="#">Home</a>
+										<a class="nav-link active" href="https://elisaporcaro.github.io/progetto-esame/#">Home</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#">Il Progetto</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#">Le Sale</a>
+										<a class="nav-link" href="sale.html">Le Sale</a>
 									</li>
 									<li class="nav-item">
 										<div class="btn-group dropright">
-											<button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">I Percorsi</button>
+											<button type="button" id="navlink" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">I Percorsi</button>
 											<div class="dropdown-menu">
 													<ul>
-														<li><a href="">Per aree geografiche</a></li>
-														<li><a href="">Per tipologia di opere</a></li>
+														<li><a href="">Per luogo</a></li>
+														<li><a href="">Per tecnica artistica</a></li>
 														<li><a href="">Per datazione</a></li>
-														<li><a href="">Per soggetto</a></li>
+														<li><a href="">Per istituzione conservatrice</a></li>
 													</ul>
-<!-- sistema lo stile del dropdown laterale qui sopra e di tutto il resto in realtà -->
 											</div>
 										</div>
-									</li>
-									<li>
-										<form class="form-inline" class="d-flex justify-content-end">
-											<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-											<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
-											</button>
-										</form>
 									</li>
 								</ul>
 							</span>
@@ -67,8 +59,17 @@
 
 			<!-- titolo -->
 			<div id="titolo" class="container">
-				<h1>Museo Virtuale delle Vite Vasariane</h1>
-<!-- io vorrei qui il search ma non si riesce a mettere tutto su una linea e abbastanza distanziato dal titolo -->
+				<div class="row">
+					<div class="col-md-10">
+						<h1>Museo Virtuale delle Vite Vasariane</h1>
+					</div>
+					<div class="col-md-2" id="cerca">
+						<!-- Search -->
+						<form class="form-inline" class="d-flex justify-content-end">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						</form>
+					</div>
+				</div>
 			</div>
 	</header>
 
@@ -80,24 +81,27 @@
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item">
-								<a href="#">Home</a>
+								<a href="https://elisaporcaro.github.io/progetto-esame/">Home</a>
 							</li>
-							<li class="breadcrumb-item">Sale</li>
-							<li class="breadcrumb-item">Leonardo da Vinci</li>
+							<li class="breadcrumb-item"><a href="sale.html">Sale</a></li>
+							<li class="breadcrumb-item"><a href="peg_leo.html">Leonardo da Vinci</a></li>
 							<li class="breadcrumb-item active" aria-current="page">La Gioconda</li>
 						</ol>
 					</nav>
-
 					<br/>
-
+					<!-- capitolo -->
+				<h3>Leggi il capitolo delle Vite dedicato a Leonardo:</h3>
+				<button type="button" class="btn-block" onclick="document.location='testo.html'">Leggi</button>
+				<br/>
+				<!-- metadati -->
 					<h3>Scarica i metadati:</h3>
 					<div class="btn-group-vertical">
-						<button type="button" class="btn-block">Formato XML/DC</button>
+						<button type="button" class="btn-block" onclick="windows.open='item.xml'">Formato XML/DC</button>
 					</div>
 			</div>
 			<div class="col-md-7">
 				<div class="card">
-					<img src="img/gioconda.jpg" class="card-img-top" alt="La Gioconda - Leonardo da Vinci" title="La Gioconda">
+					<img src="img/gioconda_all.jpg" class="card-img-top" alt="La Gioconda - Leonardo da Vinci" title="La Gioconda">
 					<div class="card-body">
 						<p class="card-text">La Gioconda è considerato il ritratto più famoso di tutti i tempi. Realizzata da Leonardo da Vinci, è probabilmente una delle immagini più note al mondo, oggetto di innumerevoli repliche, riadattamenti, veri omaggi e scherzose burle. Il soggetto è identificato in Lisa Gherardini, giovane sposa di Francesco Bartolomeo del Giocondo, da cui derivano le due definizioni del dipinto, Gioconda o Monna Lisa.</p>
 					</div>

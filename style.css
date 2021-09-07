@@ -25,7 +25,7 @@ h3 {
 	background-color: black;
 	padding-top: 2%;
 }
-input {
+#ricerca {
 	max-width: 150px;
 	display: block;
 	margin: auto;
@@ -49,6 +49,9 @@ footer a:link {
 }
 footer a:visited {
 	color: #D2691E;
+}
+.btn-correl{
+	background-color: #511515;	
 }
 
 /*pagina home-------------------*/
@@ -102,6 +105,15 @@ footer {
 #leo {
 	width: 130px;
 	float: left;
+}
+#b1 {
+	color: white;
+}
+#b2 {
+	color: white;
+}
+#b3 {
+	color: white;
 }
 hr {
 	border: 0.5px solid white;
