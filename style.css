@@ -32,6 +32,12 @@ h3 {
 .btn-group-vertical {
 	padding-bottom: 10%;
 }
+footer a:link {
+	color: #FF7F50;
+}
+footer a:visited {
+	color: #D2691E;
+}
 
 /*pagina home-------------------*/
 
