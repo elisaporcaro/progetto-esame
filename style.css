@@ -44,6 +44,18 @@ h3 {
 .btn-group-vertical {
 	padding-bottom: 10%;
 }
+a:link {
+	color: #d55d5d;
+}
+a:visited {
+	color: #e08585;
+}
+a:active {
+	color: #8e2525;
+}
+footer {
+	background-color: brown;
+}
 footer a:link {
 	color: #FF7F50;
 }
@@ -76,18 +88,6 @@ footer a:visited {
 }
 strong {
 	color: #d9d9d9;
-}
-a:link {
-	color: #d55d5d;
-}
-a:visited {
-	color: #8e2525;
-}
-a:active {
-	color: #8e2525;
-}
-footer {
-	background-color: brown;
 }
 
 /*pagina sala ------------------*/
