@@ -10,8 +10,6 @@ xmlns:dcterms="http://purl.org/dc/terms/">
 <dc:subject>olio su tavola</dc:subject>
 <dc:description>Ritratto di Lisa Gherardini, moglie di Francesco del Giocondo</dc:description>
 <dc:type>immagine</dc:type>
-	<!-- SISTEMA QUA -->
-<dc:identifier>METTERE IL LINK DELL'IMMAGINE</dc:identifier>
-	<!-- -->
+<dc:identifier>img/gioconda_all.jpg</dc:identifier>
 <dc:coverage>Parigi, Museo del Louvre</dc:coverage>
 </metadata>

@@ -21,6 +21,9 @@ h3 {
 #navlink {
 	color: #d55d5d;
 }
+.dropdown-menu {
+	background-color: #4d4d4d;
+}
 #cerca {
 	background-color: black;
 	padding-top: 2%;
