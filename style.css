@@ -132,6 +132,7 @@ hr {
 	height: 140px;
 	display: block;
 	margin: auto;
+	padding-top: 15%;
 }
 tr {
 	border-bottom: 0.5px solid white;
@@ -158,9 +159,10 @@ h5 {
 .card-leggi {
 	color: #d55d5d;
 }
+
 .col-md-8 .card-body {
 	border-bottom: 1px solid white;
-	height: 150px;
+	height: 250px;
 }
 
 /*pagina testo -----------------*/
