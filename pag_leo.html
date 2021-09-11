@@ -102,61 +102,107 @@
 				<div class="btn-group-vertical">
 					<!-- jQuery per la selezione -->
 					<script>
-						//$('#cerca-pag').on('change', function(){
-						//	alert($(this).find(":selected").val());
-						//});
-
 						function cerca(x){
-							$('.opera-card').each(function() {
-								console.log("each");
-								if ($(this).data('luogo') == x) {
-									console.log("if");
-									$(this).show();
-								}
-								else {
-									console.log("else");
-									$(this).hide();
-								}
-							});
+							if(x != 'luogo'){
+								$('.opera-card').each(function() {
+									console.log("each");
+									if ($(this).data('luogo') == x) {
+										console.log("if");
+										$(this).show();
+									}
+									else {
+										console.log("else");
+										$(this).hide();
+									}
+								});
+							}
 						}
-
-						$('#cerca-pag').on('change', function() {
-							console.log("change");
-							var x = $('#cerca-pag option:selected').text();
-							console.log(x);
-							$('.opera-card').each(function() {
-								console.log("each");
-								if ($(this).data('luogo') == x) {
-									console.log("if");
-									$(this).show();
-								}
-								else {
-									console.log("else");
-									$(this).hide();
-								}
-							});
-						});
+						
 					</script>
-					<select onChange="cerca($(this).find(':selected').text())" id="cerca-pag">
+					<select onChange="cerca($(this).find(':selected').text())">
 						<option value="">luogo</option>
-						<option>Parigi</option>
+						<option>Berlino</option>
 						<option>Firenze</option>
 						<option>Milano</option>
-						<option>Berlino</option>
+						<option>Parigi</option>
 					</select>
 					
+					<script>
+						function cerca(x){
+							if(x != 'tecnica artistica'){
+								$('.opera-card').each(function() {
+									console.log("each");
+									if ($(this).data('tecnica artistica') == x) {
+										console.log("if");
+										$(this).show();
+									}
+									else {
+										console.log("else");
+										$(this).hide();
+									}
+								});
+							}
+						}
+						
+					</script>
+					<select onChange="cerca($(this).find(':selected').text())">
+						<option value="">tecnica artistica</option>
+						<option>olio su tavola</option>
+						<option>olio e tempera su tavola</option>
+					</select>
 
+					<script>
+						function cerca(x){
+							if(x != 'datazione'){
+								$('.opera-card').each(function() {
+									console.log("each");
+									if ($(this).data('datazione') == x) {
+										console.log("if");
+										$(this).show();
+									}
+									else {
+										console.log("else");
+										$(this).hide();
+									}
+								});
+							}
+						}
+						
+					</script>
+					<select onChange="cerca($(this).find(':selected').text())">
+						<option value="">datazione</option>
+						<option>1472</option>
+						<option>1478</option>
+						<option>1494</option>
+						<option>1503</option>
+					</select>
 
+					<script>
+						function cerca(x){
+							if(x != 'museo'){
+								$('.opera-card').each(function() {
+									console.log("each");
+									if ($(this).data('museo') == x) {
+										console.log("if");
+										$(this).show();
+									}
+									else {
+										console.log("else");
+										$(this).hide();
+									}
+								});
+							}
+						}
+						
+					</script>
+					<select onChange="cerca($(this).find(':selected').text())">
+						<option value="">istituzione conservatrice</option>
+						<option>Alte Pinakotheke</option>
+						<option>Louvre</option>
+						<option>Santa Maria delle Grazie</option>
+						<option>Uffizi</option>
+					</select>
 
-
-
-
-					<!--
-					<button type="button" class="btn-block">Per luogo</button>
-					<button type="button" class="btn-block">Per tecnica artistica</button>
-					<button type="button" class="btn-block">Per datazione</button>
-					<button type="button" class="btn-block">Per istituzione conservatrice</button>
-				-->
 				</div>
 				<br/>
 				<h3>Cerca nel sito:</h3>
