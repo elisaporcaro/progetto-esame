@@ -171,7 +171,7 @@
 					</script>
 					<select onChange="cercamus($(this).find(':selected').text())">
 						<option value="">istituzione conservatrice</option>
-						<option>Alte Pinakotheke</option>
+						<option>Alte Pinakothek</option>
 						<option>Louvre</option>
 						<option>Santa Maria delle Grazie</option>
 						<option>Uffizi</option>
@@ -179,7 +179,7 @@
 
 					<script>
 						function cercadat(x,y){
-							if(x != 'data-inizio'){
+							if(x != '' && y!=''){
 								$('.opera-card').each(function() {
 									console.log("each");
 									if (($(this).data('data-inizio') > x) && ($(this).data('data-inizio') < y) || ($(this).data('data-fine') > x) && ($(this).data('data-fine') < y)) {
