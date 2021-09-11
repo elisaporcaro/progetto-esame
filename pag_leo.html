@@ -117,7 +117,7 @@
 							});
 						}
 					</script>
-					<select id="cerca-pag">
+					<select onchange="filtraluogo ($(this option:selected).text())" id="cerca-pag">
 						<option value="">luogo</option>
 						<option onchange="filtraluogo('Parigi')">Parigi</option>
 						<option onchange="filtraluogo('Firenze')">Firenze</option>
