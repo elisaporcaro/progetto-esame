@@ -102,7 +102,8 @@
 				<div class="btn-group-vertical">
 					<!-- jQuery per la selezione -->
 					<script>
-						function filtraluogo(x) {
+						$('#cerca-pag').change(function() {
+							var x = $('#cerca-pag option:selected').text();
 							console.log("inizio");
 							$('.opera-card').each(function() {
 								console.log("each");
@@ -117,12 +118,12 @@
 							});
 						}
 					</script>
-					<select onchange="filtraluogo ($(this 'option:selected').text())" id="cerca-pag">
+					<select  id="cerca-pag">
 						<option value="">luogo</option>
-						<option onchange="filtraluogo('Parigi')">Parigi</option>
-						<option onchange="filtraluogo('Firenze')">Firenze</option>
-						<option onchange="filtraluogo('Milano')">Milano</option>
-						<option onchange="filtraluogo('Berlino')">Berlino</option>
+						<option>Parigi</option>
+						<option>Firenze</option>
+						<option>Milano</option>
+						<option>Berlino</option>
 					</select>
 					
 
