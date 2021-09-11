@@ -106,6 +106,10 @@
 							alert($(this).find(":selected").val());
 						});
 
+						function cerca(x){
+							alert("aaa"+x);
+						}
+
 						$('#cerca-pag').on('change', function() {
 							console.log("change");
 							var x = $('#cerca-pag option:selected').text();
@@ -123,7 +127,7 @@
 							});
 						});
 					</script>
-					<select  id="cerca-pag">
+					<select onChange="cerca($(this).find(':selected').text())" id="cerca-pag">
 						<option value="">luogo</option>
 						<option>Parigi</option>
 						<option>Firenze</option>
