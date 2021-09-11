@@ -132,7 +132,7 @@
 							if(x != 'tecnica artistica'){
 								$('.opera-card').each(function() {
 									console.log("each");
-									if ($(this).data('tecnica artistica') == x) {
+									if ($(this).data('tec') == x) {
 										console.log("if");
 										$(this).show();
 									}
@@ -153,7 +153,7 @@
 
 					<script>
 						function cercamus(x){
-							if(x != 'museo'){
+							if(x != 'istituzione conservatrice'){
 								$('.opera-card').each(function() {
 									console.log("each");
 									if ($(this).data('museo') == x) {
