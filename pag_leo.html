@@ -103,7 +103,7 @@
 					<!-- jQuery per la selezione -->
 					<script>
 						$('#cerca-pag').on('change', function(){
-							alert(this.value);
+							alert($(this).find(":selected").val());
 						});
 
 						$('#cerca-pag').on('change', function() {
