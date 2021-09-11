@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes"><!-- ho cambiato il to-fit-->
 	<meta name="DC.Title" content="Museo online delle Vite Vasariane">
     <meta name="DC.Creator" content="Elisa Maria Porcaro">
     <meta name="DC.Subject" content="Giorgio Vasari">
@@ -30,65 +30,56 @@
 	<!-- font da google fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=WindSong:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 	<header>			
 		<!-- Navbar-->
-			<!-- collapse plugin-->
-			<div class="container-fluid">
-				<div class="fixed-top">
-					<div class="collapse" id="navbarToggleExternalContent">
-						<div class="bg-dark p-4">
-							<span class="text-muted">
-								<!-- lista-->
-								<ul class="nav flex-column">
-									<li class="nav-item">
-										<a class="nav-link active" href="https://elisaporcaro.github.io/progetto-esame/#">Home</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">Il Progetto</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="sale.html">Le Sale</a>
-									</li>
-									<li class="nav-item">
-										<div class="btn-group dropright">
-											<button type="button" id="navlink" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">I Percorsi</button>
-											<div class="dropdown-menu">
-													<ul>
-														<li><a href="">Per luogo</a></li>
-														<li><a href="">Per tecnica artistica</a></li>
-														<li><a href="">Per datazione</a></li>
-														<li><a href="">Per istituzione conservatrice</a></li>
-													</ul>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</span>
-						</div>
+		<!-- collapse plugin-->
+		<div class="container-fluid">
+			<div class="fixed-top">
+				<div class="collapse" id="navbarToggleExternalContent">
+					<div class="bg-dark p-4">
+						<span class="text-muted">
+							<!-- lista-->
+							<ul class="nav flex-column">
+								<li class="nav-item">
+									<a class="nav-link active" href="https://elisaporcaro.github.io/progetto-esame/#">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Il Progetto</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="sale.html">Le Sale</a>
+								</li>
+								<li class="nav-item">
+									<a  class="nav-link" href="percorsi.html">I Percorsi</a>
+								</li>
+							</ul>
+						</span>
 					</div>
-					<nav class="navbar navbar-dark">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-					</nav>
 				</div>
+				<nav class="navbar navbar-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</nav>
 			</div>
+		</div>
 
-			<!-- titolo -->
-			<div id="titolo" class="container">
-				<div class="row">
-					<div class="col-md-10">
-						<h1>Museo Virtuale delle Vite Vasariane</h1>
-					</div>
-					<div class="col-md-2" id="cerca">
-						<!-- Search -->
-						<form class="form-inline" class="d-flex justify-content-end">
-							<input class="form-control mr-sm-2" id="ricerca" type="search" placeholder="Search" aria-label="Search">
-						</form>
-					</div>
+		<!-- titolo -->
+		<div id="titolo" class="container">
+			<div class="row">
+				<div class="col-md-10">
+					<h1>Museo Virtuale delle Vite Vasariane</h1>
+				</div>
+				<div class="col-md-2" id="cerca">
+					<!-- Search -->
+					<form class="form-inline" class="d-flex justify-content-end">
+						<input class="form-control mr-sm-2" id="ricerca" type="search" placeholder="Search" aria-label="Search">
+					</form>
 				</div>
 			</div>
+		</div>
 	</header>
 
 			<!-- creazione delle colonne -->
@@ -132,7 +123,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-12 col-xs-12">
+					<div id="laterale" class="col-md-3 col-sm-12 col-xs-12">
 						<p id="intro">Il <strong>Museo Virtuale delle Vite Vasariane</strong> raccoglie tutte le opere citate da Giorgio Vasari nel suo testo <em>Le Vite de' più eccellenti architetti, pittori, et scultori italiani, da Cimabue insino a' tempi nostri</em>, trasformando il primo e più importante testo della storia dell'arte italiana in una galleria online, organizzata per sale che riprendono la suddivisione e l'organizzazione dei capitoli del libro.<br/>Le opere qui raccolte sono conservate in diversi istituti culturali italiani e internazionali</p>
 					</div>
 				</div>
