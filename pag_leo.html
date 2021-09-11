@@ -102,9 +102,9 @@
 				<div class="btn-group-vertical">
 					<!-- jQuery per la selezione -->
 					<script>
-						$('#cerca-pag').change(function() {
+						$('#cerca-pag').on('change', function() {
 							console.log("change");
-							var x = $(this).text();
+							var x = $('#cerca-pag option:selected').text();
 							console.log(x);
 							$('.opera-card').each(function() {
 								console.log("each");
