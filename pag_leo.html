@@ -111,8 +111,10 @@
 					</script>
 					<select id="cerca-pag">
 						<option value="">luogo</option>
-						<option onchange="filtraluogo('Parigi')">Parigi</option><!--continua-->
-
+						<option onchange="filtraluogo('Parigi')">Parigi</option>
+						<option onchange="filtraluogo('Firenze')">Firenze</option>
+						<option onchange="filtraluogo('Milano')">Milano</option>
+						<option onchange="filtraluogo('Berlino')">Berlino</option>
 					</select>
 					
 
@@ -131,7 +133,7 @@
 				<br/>
 				<h3>Cerca nel sito:</h3>
 				<div class="btn-group-vertical">
-					<button type="button" class="btn-block" onclick="location.href=percorsi.html">Cerca</button>
+					<button type="button" class="btn-block" onclick="document.location='percorsi.html'">Cerca</button>
 				</div>
 			</div>
 			
@@ -152,9 +154,9 @@
 									<div class="card mb-3">
 										<div class="row no-gutters">
 											<!-- rifai i div con data- -->
-											<div class="row opera-card" data-tec="olio su tavola" data-inizio="1503" data-fine="1506" data-museo="Louvre">
+											<div class="row opera-card" data-tec="olio su tavola" data-inizio="1503" data-fine="1506" data-museo="Louvre" data-luogo="Parigi">
 												<div class="col-md-4">
-													<img class="item" src="img/gioconda.jpg" alt="Monna Lisa, Leonardo da Vinci" title="Monna Lisa" data-luogo="Parigi">
+													<img class="item" src="img/gioconda.jpg" alt="Monna Lisa, Leonardo da Vinci" title="Monna Lisa">
 												</div>
 												<div class="col-md-8">
 													<div class="card-body">
@@ -179,82 +181,88 @@
 													</div>
 												</div>
 											</div>
+											<div class="row opera-card" data-tec="olio e tempera su tavola" data-inizio="1472" data-fine="1475" data-museo="Uffizi" data-luogo="Firenze">
+												<div class="col-md-4">
+													<img class="item" src="img/battesimo.jpg" alt="Battesimo di Cristo, Verrocchio e Leonardo da Vinci" title="Battesimo di Cristo">
+												</div>
+												<div class="col-md-8">
+													<div class="card-body">
+														<h5 class="card-title">Battesimo di Cristo</h5>
+														<table>
+															<tr>
+																<td>tecnica:</td>
+																<td>olio e tempera su tavola</td>
+															</tr>
+															<tr>
+																<td>datazione:</td>
+																<td>1472-1475</td>
+															</tr>
+															<tr>
+																<td>istituto conservatore:</td>
+																<td>Museo degli Uffizi</td>
+															</tr>
+														</table>
+														<a href="item2.html" target="_blank" title="Leggi la scheda sul Battesimo di Cristo">
+															<p class="card-leggi">leggi la scheda dell'opera</p>
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="row opera-card" data-tec="affresco" data-inizio="1494" data-fine="1506" data-museo="Santa Maria delle Grazie" data-luogo="Milano">
+												<div class="col-md-4">
+													<img class="item" src="img/cenacolo.jpg" alt="Cenacolo, Leonardo da Vinci" title="Cenacolo">
+												</div>
+												<div class="col-md-8">
+													<div class="card-body">
+														<h5 class="card-title">Cenacolo</h5>
+														<table>
+															<tr>
+																<td>tecnica:</td>
+																<td>affresco</td>
+															</tr>
+															<tr>
+																<td>datazione:</td>
+																<td>1494-1498</td>
+															</tr>
+															<tr>
+																<td>istituto conservatore:</td>
+																<td>Santa Maria delle Grazie</td>
+															</tr>
+														</table>
+														<a href="" target="_blank" title="Leggi la scheda sul Cenacolo">
+															<p class="card-leggi">leggi la scheda dell'opera</p>
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="row opera-card" data-tec="olio su tavola" data-inizio="1478" data-fine="1480" data-museo="Alte Pinakothek" data-luogo="Berlino">
+												<div class="col-md-4">
+													<img class="item" src="img/m_garofano.jpg" alt="Madonna del Garofano" title="Madonna del Garofano">
+												</div>
+												<div class="col-md-8">
+													<div class="card-body">
+														<h5 class="card-title">Madonna del Garofano</h5>
+														<table>
+															<tr>
+																<td>tecnica:</td>
+																<td>olio su tavola</td>
+															</tr>
+															<tr>
+																<td>datazione:</td>
+																<td>1478-1480</td>
+															</tr>
+															<tr>
+																<td>istituto conservatore:</td>
+																<td>Alte Pinakothek</td>
+															</tr>
+														</table>
+														<a href="" target="_blank" title="Leggi la scheda sulla Madonna del Garofano">
+															<p class="card-leggi">leggi la scheda dell'opera</p>
+														</a>
+													</div>
+												</div>
+											</div>
 											
-											<div class="col-md-4">
-												<img class="item" src="img/battesimo.jpg" alt="Battesimo di Cristo, Verrocchio e Leonardo da Vinci" title="Battesimo di Cristo">
-											</div>
-											<div class="col-md-8">
-												<div class="card-body">
-													<h5 class="card-title">Battesimo di Cristo</h5>
-													<table>
-														<tr>
-															<td>tecnica:</td>
-															<td>olio e tempera su tavola</td>
-														</tr>
-														<tr>
-															<td>datazione:</td>
-															<td>1472-1475</td>
-														</tr>
-														<tr>
-															<td>istituto conservatore:</td>
-															<td>Museo degli Uffizi</td>
-														</tr>
-													</table>
-													<a href="item2.html" target="_blank" title="Leggi la scheda sul Battesimo di Cristo">
-														<p class="card-leggi">leggi la scheda dell'opera</p>
-													</a>
-												</div>
-											</div>
-											<div class="col-md-4">
-												<img class="item" src="img/cenacolo.jpg" alt="Cenacolo, Leonardo da Vinci" title="Cenacolo">
-											</div>
-											<div class="col-md-8">
-												<div class="card-body">
-													<h5 class="card-title">Cenacolo</h5>
-													<table>
-														<tr>
-															<td>tecnica:</td>
-															<td>affresco</td>
-														</tr>
-														<tr>
-															<td>datazione:</td>
-															<td>1494-1498</td>
-														</tr>
-														<tr>
-															<td>istituto conservatore:</td>
-															<td>Santa Maria delle Grazie</td>
-														</tr>
-													</table>
-													<a href="" target="_blank" title="Leggi la scheda sul Cenacolo">
-														<p class="card-leggi">leggi la scheda dell'opera</p>
-													</a>
-												</div>
-											</div>
-											<div class="col-md-4">
-												<img class="item" src="img/m_garofano.jpg" alt="Madonna del Garofano" title="Madonna del Garofano">
-											</div>
-											<div class="col-md-8">
-												<div class="card-body">
-													<h5 class="card-title">Madonna del Garofano</h5>
-													<table>
-														<tr>
-															<td>tecnica:</td>
-															<td>olio su tavola</td>
-														</tr>
-														<tr>
-															<td>datazione:</td>
-															<td>1478-1480</td>
-														</tr>
-														<tr>
-															<td>istituto conservatore:</td>
-															<td>Alte Pinakothek</td>
-														</tr>
-													</table>
-													<a href="" target="_blank" title="Leggi la scheda sulla Madonna del Garofano">
-														<p class="card-leggi">leggi la scheda dell'opera</p>
-													</a>
-												</div>
-											</div>
 										</div>
 										<!-- pagination -->
 										<nav aria-label="Page navigation example">
