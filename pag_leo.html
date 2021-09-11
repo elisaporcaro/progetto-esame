@@ -128,7 +128,7 @@
 					</select>
 					
 					<script>
-						function cerca(x){
+						function cercatec(x){
 							if(x != 'tecnica artistica'){
 								$('.opera-card').each(function() {
 									console.log("each");
@@ -145,40 +145,14 @@
 						}
 						
 					</script>
-					<select onChange="cerca($(this).find(':selected').text())">
+					<select onChange="cercatec($(this).find(':selected').text())">
 						<option value="">tecnica artistica</option>
 						<option>olio su tavola</option>
 						<option>olio e tempera su tavola</option>
 					</select>
 
 					<script>
-						function cerca(x){
-							if(x != 'datazione'){
-								$('.opera-card').each(function() {
-									console.log("each");
-									if ($(this).data('datazione') == x) {
-										console.log("if");
-										$(this).show();
-									}
-									else {
-										console.log("else");
-										$(this).hide();
-									}
-								});
-							}
-						}
-						
-					</script>
-					<select onChange="cerca($(this).find(':selected').text())">
-						<option value="">datazione</option>
-						<option>1472</option>
-						<option>1478</option>
-						<option>1494</option>
-						<option>1503</option>
-					</select>
-
-					<script>
-						function cerca(x){
+						function cercamus(x){
 							if(x != 'museo'){
 								$('.opera-card').each(function() {
 									console.log("each");
@@ -195,13 +169,36 @@
 						}
 						
 					</script>
-					<select onChange="cerca($(this).find(':selected').text())">
+					<select onChange="cercamus($(this).find(':selected').text())">
 						<option value="">istituzione conservatrice</option>
 						<option>Alte Pinakotheke</option>
 						<option>Louvre</option>
 						<option>Santa Maria delle Grazie</option>
 						<option>Uffizi</option>
 					</select>
+
+					<script>
+						function cercadat(x,y){
+							if(x != 'data-inizio'){
+								$('.opera-card').each(function() {
+									console.log("each");
+									if (($(this).data('data-inizio') > x) && ($(this).data('data-inizio') < y) || ($(this).data('data-fine') > x) && ($(this).data('data-fine') < y)) {
+										console.log("if");
+										$(this).show();
+									}
+									else {
+										console.log("else");
+										$(this).hide();
+									}
+								});
+							}
+						}
+						
+					</script>
+					<input type="text" id="inizio" placeholder="data iniziale">
+					<input type="text" id="fine" placeholder="data finale">
+					<button onclick="cercadat($('#inizio').val(), $('#fine').val())">cerca</button>
+						
 
 				</div>
 				<br/>
