@@ -11,6 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- font da google fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=WindSong:wght@500&display=swap" rel="stylesheet">
+	<!-- Importo jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<header>
@@ -98,60 +100,86 @@
 				<!-- cerca -->
 				<h3>Cerca in questa pagina:</h3>
 				<div class="btn-group-vertical">
+					<!-- jQuery per la selezione -->
+					<script>
+						filtraluogo(x) {
+							$('.opera-card').each(function() {
+								if ($.(this).data("luogo")=x) {$.(this).visibility("visible")}
+									else {$.(this).visibility("hidden")}
+							});
+						}
+					</script>
+					<select id="cerca-pag">
+						<option value="">luogo</option>
+						<option onchange="filtraluogo('Parigi')">Parigi</option><!--continua-->
+
+					</select>
+					
+
+
+
+
+
+
+					<!--
 					<button type="button" class="btn-block">Per luogo</button>
 					<button type="button" class="btn-block">Per tecnica artistica</button>
 					<button type="button" class="btn-block">Per datazione</button>
 					<button type="button" class="btn-block">Per istituzione conservatrice</button>
+				-->
 				</div>
 				<br/>
 				<h3>Cerca nel sito:</h3>
 				<div class="btn-group-vertical">
-					<button type="button" class="btn-block">Per luogo</button>
-					<button type="button" class="btn-block">Per tecnica artistica</button>
-					<button type="button" class="btn-block">Per datazione</button>
-					<button type="button" class="btn-block">Per istituzione conservatrice</button>
+					<button type="button" class="btn-block" onclick="location.href=percorsi.html">Cerca</button>
 				</div>
 			</div>
 			
 			<div class="col-md-7">
 				<div class="accordion" id="accordionExample">
-					<!-- scheda -->
+					<!-- opere -->
 					<div class="card">
 						<div class="card-header" id="headingOne">
 							<h2 class="mb-0">
 								<button class="btn btn-link btn-block text-left" id="b1" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Opere di Leonardo</button>
 							</h2>
 						</div>
+						<!--JavaScript -->
+
 						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 							<div class="card-body">
 								<div class="container">
 									<div class="card mb-3">
 										<div class="row no-gutters">
-											<div class="col-md-4">
-												<img class="item" src="img/gioconda.jpg" alt="Monna Lisa, Leonardo da Vinci" title="Monna Lisa">
-											</div>
-											<div class="col-md-8">
-												<div class="card-body">
-													<h5 class="card-title">La Gioconda</h5>
-													<table>
-														<tr>
-															<td>tecnica:</td>
-															<td>olio su tavola</td>
-														</tr>
-														<tr>
-															<td>datazione:</td>
-															<td>1503-1506</td>
-														</tr>
-														<tr>
-															<td>istituto conservatore:</td>
-															<td>Museo del Louvre</td>
-														</tr>
-													</table>
-													<a href="item.html" target="_blank" title="Leggi la scheda sulla Gioconda">
-														<p class="card-leggi">leggi la scheda dell'opera</p>
-													</a>
+											<!-- rifai i div con data- -->
+											<div class="row opera-card" data-tec="olio su tavola" data-inizio="1503" data-fine="1506" data-museo="Louvre">
+												<div class="col-md-4">
+													<img class="item" src="img/gioconda.jpg" alt="Monna Lisa, Leonardo da Vinci" title="Monna Lisa" data-luogo="Parigi">
+												</div>
+												<div class="col-md-8">
+													<div class="card-body">
+														<h5 class="card-title">La Gioconda</h5>
+														<table>
+															<tr>
+																<td>tecnica:</td>
+																<td>olio su tavola</td>
+															</tr>
+															<tr>
+																<td>datazione:</td>
+																<td>1503-1506</td>
+															</tr>
+															<tr>
+																<td>istituto conservatore:</td>
+																<td>Museo del Louvre</td>
+															</tr>
+														</table>
+														<a href="item.html" target="_blank" title="Leggi la scheda sulla Gioconda">
+															<p class="card-leggi">leggi la scheda dell'opera</p>
+														</a>
+													</div>
 												</div>
 											</div>
+											
 											<div class="col-md-4">
 												<img class="item" src="img/battesimo.jpg" alt="Battesimo di Cristo, Verrocchio e Leonardo da Vinci" title="Battesimo di Cristo">
 											</div>
@@ -251,7 +279,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- opere -->
+					<!-- scheda -->
 					<div class="card">
 						<div class="card-header" id="headingTwo">
 							<h2 class="mb-0">
