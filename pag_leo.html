@@ -102,12 +102,22 @@
 				<div class="btn-group-vertical">
 					<!-- jQuery per la selezione -->
 					<script>
-						$('#cerca-pag').on('change', function(){
-							alert($(this).find(":selected").val());
-						});
+						//$('#cerca-pag').on('change', function(){
+						//	alert($(this).find(":selected").val());
+						//});
 
 						function cerca(x){
-							alert("aaa"+x);
+							$('.opera-card').each(function() {
+								console.log("each");
+								if ($(this).data('luogo') == x) {
+									console.log("if");
+									$(this).show();
+								}
+								else {
+									console.log("else");
+									$(this).hide();
+								}
+							});
 						}
 
 						$('#cerca-pag').on('change', function() {
