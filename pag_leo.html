@@ -103,7 +103,7 @@
 					<!-- jQuery per la selezione -->
 					<script>
 						$('#cerca-pag').change(function() {
-							var x = $('#cerca-pag option:selected').text();
+							var x = $(this).text();
 							console.log("inizio");
 							$('.opera-card').each(function() {
 								console.log("each");
