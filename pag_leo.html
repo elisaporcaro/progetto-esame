@@ -105,16 +105,16 @@
 						function cerca(x){
 							if(x != 'luogo'){
 								$('.opera-card').each(function() {
-									console.log("each");
 									if ($(this).data('luogo') == x) {
-										console.log("if");
 										$(this).show();
 									}
 									else {
-										console.log("else");
 										$(this).hide();
 									}
 								});
+							}
+							else {
+								$('.opera-card').show();
 							}
 						}
 						
@@ -131,16 +131,16 @@
 						function cercatec(x){
 							if(x != 'tecnica artistica'){
 								$('.opera-card').each(function() {
-									console.log("each");
 									if ($(this).data('tec') == x) {
-										console.log("if");
 										$(this).show();
 									}
 									else {
-										console.log("else");
 										$(this).hide();
 									}
 								});
+							}
+							else {
+								$('.opera-card').show();
 							}
 						}
 						
@@ -155,16 +155,16 @@
 						function cercamus(x){
 							if(x != 'istituzione conservatrice'){
 								$('.opera-card').each(function() {
-									console.log("each");
 									if ($(this).data('museo') == x) {
-										console.log("if");
 										$(this).show();
 									}
 									else {
-										console.log("else");
 										$(this).hide();
 									}
 								});
+							}
+							else {
+								$('.opera-card').show();
 							}
 						}
 						
@@ -181,8 +181,7 @@
 						function cercadat(x,y){
 							if(x != '' && y!=''){
 								$('.opera-card').each(function() {
-									console.log("each");
-									if (($(this).data('data-inizio') > x) && ($(this).data('data-inizio') < y) || ($(this).data('data-fine') > x) && ($(this).data('data-fine') < y)) {
+									if (($(this).data('inizio') > x) && ($(this).data('inizio') < y) || ($(this).data('fine') > x) && ($(this).data('fine') < y)) {
 										console.log("if");
 										$(this).show();
 									}
@@ -191,6 +190,9 @@
 										$(this).hide();
 									}
 								});
+							}
+							else {
+								$('.opera-card').show();
 							}
 						}
 						
