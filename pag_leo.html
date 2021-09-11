@@ -103,8 +103,9 @@
 					<!-- jQuery per la selezione -->
 					<script>
 						$('#cerca-pag').change(function() {
+							console.log("change");
 							var x = $(this).text();
-							console.log("inizio");
+							console.log(x);
 							$('.opera-card').each(function() {
 								console.log("each");
 								if ($(this).data('luogo') == x) {
