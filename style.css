@@ -68,6 +68,9 @@ footer a:visited {
 .btn-correl{
 	background-color: #511515;	
 }
+select {
+	width: 150px;
+}
 
 /*pagina home-------------------*/
 
