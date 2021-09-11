@@ -102,6 +102,10 @@
 				<div class="btn-group-vertical">
 					<!-- jQuery per la selezione -->
 					<script>
+						$('#cerca-pag').on('change', function(){
+							alert(this.value);
+						});
+
 						$('#cerca-pag').on('change', function() {
 							console.log("change");
 							var x = $('#cerca-pag option:selected').text();
