@@ -13,9 +13,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=WindSong:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
+	<header>			
 		<!-- Navbar-->
-		<!-- collapse plugin-->
 		<div class="container-fluid">
 			<div class="fixed-top">
 				<div class="collapse" id="navbarToggleExternalContent">
@@ -35,32 +34,32 @@
 								<li class="nav-item">
 									<a  class="nav-link" href="percorsi.html">I Percorsi</a>
 								</li>
-								</ul>
-							</span>
-						</div>
+							</ul>
+						</span>
 					</div>
-					<nav class="navbar navbar-dark">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-					</nav>
 				</div>
+				<nav class="navbar navbar-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</nav>
 			</div>
+		</div>
 
-			<!-- titolo -->
-			<div id="titolo" class="container">
-				<div class="row">
-					<div class="col-md-10">
-						<h1>Museo Virtuale delle Vite Vasariane</h1>
-					</div>
-					<div class="col-md-2" id="cerca">
-						<!-- Search -->
-						<form class="form-inline" class="d-flex justify-content-end">
-							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-						</form>
-					</div>
+		<!-- titolo -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10">
+					<h1>Museo Virtuale delle Vite Vasariane</h1>
+				</div>
+				<div class="col-md-2" id="cerca">
+					<!-- Search -->
+					<form class="form-inline" class="d-flex justify-content-end">
+						<input class="form-control mr-sm-2" id="ricerca" type="search" placeholder="Search" aria-label="Search">
+					</form>
 				</div>
 			</div>
+		</div>
 	</header>
 
 		<h2>Sale del Museo</h2>
@@ -80,11 +79,11 @@
 					<br/>
 					<h3>Cerca artisti e opere:</h3>
 					<div class="btn-group-vertical">
-						<button type="button" class="btn-block" onclick="document.location='percorsi.html'">Percorsi</button>
+						<button id="percorsi" type="button" class="btn-block" onclick="document.location='percorsi.html'">Percorsi</button>
 					</div>
 				</div>
 				<div class="col-md-7">
-					<p>Le sale del museo virtuale rispecchiano la struttura del testo vasariano, e sono quindi divise per artista e organizzate secondo le tre sezioni che costituiscono il testo</p>
+					<p>Le sale del museo virtuale rispecchiano la struttura del testo vasariano e sono quindi divise per artista e organizzate secondo le tre sezioni che costituiscono il testo</p>
 					<!-- le tre sezioni -->
 					<ul>
 						<li>
@@ -93,38 +92,36 @@
 							</p>
 							<div class="collapse" id="collapseExample1">
 								<div class="card card-body">
-									<a href="">
-										<ul>
-											<li><a href="#">Giovanni Cimabue</a></li>
-											<li><a href="#">Andrea Taffi</a></li>
-											<li><a href="#">Gaddo Gaddi</a></li>
-											<li><a href="#">Margaritone d'Arezzo</a></li>
-											<li><a href="#">Giotto</a></li>
-											<li><a href="#">Stefano</a></li>
-											<li><a href="#">Ugolino</a></li>
-											<li><a href="#">Pietro Laurati</a></li>
-											<li><a href="#">Andrea Pisano</a></li>
-											<li><a href="#">Buonamico Buffalmacco</a></li>
-											<li><a href="#">Ambrogio Lorenzetti</a></li>
-											<li><a href="#">Pietro Cavallini</a></li>
-											<li><a href="#">Simon Senese</a></li>
-											<li><a href="#">Taddeo Gaddi</a></li>
-											<li><a href="#">Andrea di Cione Orgagna</a></li>
-											<li><a href="#">Tommaso Fiorentino</a></li>
-											<li><a href="#">Giovannino dal Ponte</a></li>
-											<li><a href="#">Agnolo Gaddi</a></li>
-											<li><a href="#">Il Berna Senese</a></li>
-											<li><a href="#">Duccio di Buoninsegna</a></li>
-											<li><a href="#">Antonio Veneziano</a></li>
-											<li><a href="#">Iacopo di Casentino</a></li>
-											<li><a href="#">Spinello Aretino</a></li>
-											<li><a href="#">Gherardo Starnina</a></li>
-											<li><a href="#">Lippo</a></li>
-											<li><a href="#">Fra' Lorenzo degli Agnoli</a></li>
-											<li><a href="#">Taddeo Bartoli</a></li>
-											<li><a href="#">Lorenzo di Bicci</a></li>
-										</ul>
-									</a>
+									<ul>
+										<li><a href="#">Giovanni Cimabue</a></li>
+										<li><a href="#">Andrea Taffi</a></li>
+										<li><a href="#">Gaddo Gaddi</a></li>
+										<li><a href="#">Margaritone d'Arezzo</a></li>
+										<li><a href="#">Giotto</a></li>
+										<li><a href="#">Stefano</a></li>
+										<li><a href="#">Ugolino</a></li>
+										<li><a href="#">Pietro Laurati</a></li>
+										<li><a href="#">Andrea Pisano</a></li>
+										<li><a href="#">Buonamico Buffalmacco</a></li>
+										<li><a href="#">Ambrogio Lorenzetti</a></li>
+										<li><a href="#">Pietro Cavallini</a></li>
+										<li><a href="#">Simon Senese</a></li>
+										<li><a href="#">Taddeo Gaddi</a></li>
+										<li><a href="#">Andrea di Cione Orgagna</a></li>
+										<li><a href="#">Tommaso Fiorentino</a></li>
+										<li><a href="#">Giovannino dal Ponte</a></li>
+										<li><a href="#">Agnolo Gaddi</a></li>
+										<li><a href="#">Il Berna Senese</a></li>
+										<li><a href="#">Duccio di Buoninsegna</a></li>
+										<li><a href="#">Antonio Veneziano</a></li>
+										<li><a href="#">Iacopo di Casentino</a></li>
+										<li><a href="#">Spinello Aretino</a></li>
+										<li><a href="#">Gherardo Starnina</a></li>
+										<li><a href="#">Lippo</a></li>
+										<li><a href="#">Fra' Lorenzo degli Agnoli</a></li>
+										<li><a href="#">Taddeo Bartoli</a></li>
+										<li><a href="#">Lorenzo di Bicci</a></li>
+									</ul>
 								</div>
 							</div>
 						</li>
@@ -134,64 +131,62 @@
 							</p>
 							<div class="collapse" id="collapseExample2">
 								<div class="card card-body">
-									<a href="">
-										<ul>
-											<li><a href="#">Iacopo della Quercia</a></li>
-											<li><a href="#">Niccolò d'Arezzo</a></li>
-											<li><a href="#">Dello</a></li>
-											<li><a href="#">Nanni di Antonio di Banco</a></li>
-											<li><a href="#">Luca della Robbia</a></li>
-											<li><a href="#">Paolo Uccello</a></li>
-											<li><a href="#">Lorenzo Ghiberti</a></li>
-											<li><a href="#">Masolino</a></li>
-											<li><a href="#">Parri Spinelli</a></li>
-											<li><a href="#">Masaccio</a></li>
-											<li><a href="#">Filippo Brunelleschi</a></li>
-											<li><a href="#">Donato</a></li>
-											<li><a href="#">Michelozzo Michelozzi</a></li>
-											<li><a href="#">Giuliano da Maiano</a></li>
-											<li><a href="#">Antonio Filarete e Simone</a></li>
-											<li><a href="#">Piero della Franscesca</a></li>
-											<li><a href="#">Fra' Giovanni da Fiesole</a></li>
-											<li><a href="#">Lazaro Vasari</a></li>
-											<li><a href="#">Leon Battista Alberti</a></li>
-											<li><a href="#">Antonello da Messina</a></li>
-											<li><a href="#">Alessio Baldovinetti</a></li>
-											<li><a href="#">Vellano Padovano</a></li>
-											<li><a href="#">Filippo Lippi</a></li>
-											<li><a href="#">Paolo Romano e maestro Mino</a></li>
-											<li><a href="#">Chimenti Camicia</a></li>
-											<li><a href="#">Andrea del Castagno</a></li>
-											<li><a href="#">Gentile da Fabriano e Vittore Pisanello</a></li>
-											<li><a href="#">Pesello e Francesco Peselli</a></li>
-											<li><a href="#">Benozzo Gozzoli</a></li>
-											<li><a href="#">Lorenzo Vecchietti</a></li>
-											<li><a href="#">Galasso Ferrarese</a></li>
-											<li><a href="#">Antonio Rossellino</a></li>
-											<li><a href="#">Francesco di Giorgio</a></li>
-											<li><a href="#">Desiderio da Settignano</a></li>
-											<li><a href="#">Mino</a></li>
-											<li><a href="#">Ercole Ferrarese</a></li>
-											<li><a href="#">Jacopo, Giovanni e Gentile Bellini</a></li>
-											<li><a href="#">Cosimo Rosselli</a></li>
-											<li><a href="#">Il Cecca</a></li>
-											<li><a href="#">Andrea Verrocchio</a></li>
-											<li><a href="#">L'abate di San Clemente</a></li>
-											<li><a href="#">Domenico Ghirlandaio</a></li>
-											<li><a href="#">Gherardo</a></li>
-											<li><a href="#">Sandro Botticelli</a></li>
-											<li><a href="#">Antonio e Piero del Pollaiuolo</a></li>
-											<li><a href="#">Benedetto da Maiano</a></li>
-											<li><a href="#">Andrea Mantegna</a></li>
-											<li><a href="#">Filippo Lippi</a></li>
-											<li><a href="#">Luca Signorelli</a></li>
-											<li><a href="#">Bernardino Pinturicchio</a></li>
-											<li><a href="#">Jacopo detto l'Indaco</a></li>
-											<li><a href="#">Franscesco Francia</a></li>
-											<li><a href="#">Vittore Scarpaccia</a></li>
-											<li><a href="#">Pietro Perugino</a></li>
-										</ul>
-									</a>
+									<ul>
+										<li><a href="#">Iacopo della Quercia</a></li>
+										<li><a href="#">Niccolò d'Arezzo</a></li>
+										<li><a href="#">Dello</a></li>
+										<li><a href="#">Nanni di Antonio di Banco</a></li>
+										<li><a href="#">Luca della Robbia</a></li>
+										<li><a href="#">Paolo Uccello</a></li>
+										<li><a href="#">Lorenzo Ghiberti</a></li>
+										<li><a href="#">Masolino</a></li>
+										<li><a href="#">Parri Spinelli</a></li>
+										<li><a href="#">Masaccio</a></li>
+										<li><a href="#">Filippo Brunelleschi</a></li>
+										<li><a href="#">Donato</a></li>
+										<li><a href="#">Michelozzo Michelozzi</a></li>
+										<li><a href="#">Giuliano da Maiano</a></li>
+										<li><a href="#">Antonio Filarete e Simone</a></li>
+										<li><a href="#">Piero della Franscesca</a></li>
+										<li><a href="#">Fra' Giovanni da Fiesole</a></li>
+										<li><a href="#">Lazaro Vasari</a></li>
+										<li><a href="#">Leon Battista Alberti</a></li>
+										<li><a href="#">Antonello da Messina</a></li>
+										<li><a href="#">Alessio Baldovinetti</a></li>
+										<li><a href="#">Vellano Padovano</a></li>
+										<li><a href="#">Filippo Lippi</a></li>
+										<li><a href="#">Paolo Romano e maestro Mino</a></li>
+										<li><a href="#">Chimenti Camicia</a></li>
+										<li><a href="#">Andrea del Castagno</a></li>
+										<li><a href="#">Gentile da Fabriano e Vittore Pisanello</a></li>
+										<li><a href="#">Pesello e Francesco Peselli</a></li>
+										<li><a href="#">Benozzo Gozzoli</a></li>
+										<li><a href="#">Lorenzo Vecchietti</a></li>
+										<li><a href="#">Galasso Ferrarese</a></li>
+										<li><a href="#">Antonio Rossellino</a></li>
+										<li><a href="#">Francesco di Giorgio</a></li>
+										<li><a href="#">Desiderio da Settignano</a></li>
+										<li><a href="#">Mino</a></li>
+										<li><a href="#">Ercole Ferrarese</a></li>
+										<li><a href="#">Jacopo, Giovanni e Gentile Bellini</a></li>
+										<li><a href="#">Cosimo Rosselli</a></li>
+										<li><a href="#">Il Cecca</a></li>
+										<li><a href="#">Andrea Verrocchio</a></li>
+										<li><a href="#">L'abate di San Clemente</a></li>
+										<li><a href="#">Domenico Ghirlandaio</a></li>
+										<li><a href="#">Gherardo</a></li>
+										<li><a href="#">Sandro Botticelli</a></li>
+										<li><a href="#">Antonio e Piero del Pollaiuolo</a></li>
+										<li><a href="#">Benedetto da Maiano</a></li>
+										<li><a href="#">Andrea Mantegna</a></li>
+										<li><a href="#">Filippo Lippi</a></li>
+										<li><a href="#">Luca Signorelli</a></li>
+										<li><a href="#">Bernardino Pinturicchio</a></li>
+										<li><a href="#">Jacopo detto l'Indaco</a></li>
+										<li><a href="#">Franscesco Francia</a></li>
+										<li><a href="#">Vittore Scarpaccia</a></li>
+										<li><a href="#">Pietro Perugino</a></li>
+									</ul>
 								</div>
 							</div>
 						</li>
@@ -201,59 +196,57 @@
 							</p>
 							<div class="collapse" id="collapseExample3">
 								<div class="card card-body">
-									<a href="">
-										<ul>
-											<li><a href="pag_leo.html">Leonardo da Vinci</a></li>
-											<li><a href="#">Giorgione</a></li>
-											<li><a href="#">Antonio da Correggio</a></li>
-											<li><a href="#">Piero di Cosimo</a></li>
-											<li><a href="#">Bramante</a></li>
-											<li><a href="#">Fra' Bartolomeo di San Marco</a></li>
-											<li><a href="#">Mariotto Albertinelli</a></li>
-											<li><a href="#">Rafaellin del Garbo</a></li>
-											<li><a href="#">Torrigiano</a></li>
-											<li><a href="#">Giuliano e Antonio da Sangallo</a></li>
-											<li><a href="#">Raffaello Sanzio</a></li>
-											<li><a href="#">Guglielmo da Marcilla</a></li>
-											<li><a href="#">Cronaca</a></li>
-											<li><a href="#">David e Benedetto Ghirlandai</a></li>
-											<li><a href="#">Domenico Puligo</a></li>
-											<li><a href="#">Andrea da Fiesole</a></li>
-											<li><a href="#">Benedetto da Rovezzano</a></li>
-											<li><a href="#">Baccio da Monte Lupo</a></li>
-											<li><a href="#">Lorenzo di Credi</a></li>
-											<li><a href="#">Boccaccino Cremonese</a></li>
-											<li><a href="#">Lorenzetto</a></li>
-											<li><a href="#">Baldassarre Peruzzi</a></li>
-											<li><a href="#">Pellegrino da Modana</a></li>
-											<li><a href="#">Giovan Francesco detto il Fattore</a></li>
-											<li><a href="#">Andrea del Sarto</a></li>
-											<li><a href="#">Properzia de' Rossi</a></li>
-											<li><a href="#">Alfonso Lombardi</a></li>
-											<li><a href="#">Michelangelo Senese</a></li>
-											<li><a href="#">Girolamo Santacroce</a></li>
-											<li><a href="#">Dosso e Battista</a></li>
-											<li><a href="#">Giovanni Antonio Licino</a></li>
-											<li><a href="#">Il Rosso</a></li>
-											<li><a href="#">Giovanni Antonio Sogliani</a></li>
-											<li><a href="#">Girolamo da Trevigi</a></li>
-											<li><a href="#">Polidoro da Caravaggio e Maturino fiorentino</a></li>
-											<li><a href="#">Bartolomeo da Bagnacavallo</a></li>
-											<li><a href="#">Marco Calabrese</a></li>
-											<li><a href="#">Morto da Feltro</a></li>
-											<li><a href="#">Francia Bigio</a></li>
-											<li><a href="#">Francesco Mazzola</a></li>
-											<li><a href="#">Il Palma</a></li>
-											<li><a href="#">Franscesco Granacci</a></li>
-											<li><a href="#">Baccio d'Agnolo</a></li>
-											<li><a href="#">Valerio Vicentino</a></li>
-											<li><a href="#">Antonio da Sangallo</a></li>
-											<li><a href="#">Giulio Romano</a></li>
-											<li><a href="#">Sebastiano Veneziano</a></li>
-											<li><a href="#">Perin del Vaga</a></li>
-											<li><a href="#">Michelangelo Buonarroti</a></li>
-										</ul>
-									</a>
+									<ul>
+										<li><a href="pag_leo.html">Leonardo da Vinci</a></li>
+										<li><a href="#">Giorgione</a></li>
+										<li><a href="#">Antonio da Correggio</a></li>
+										<li><a href="#">Piero di Cosimo</a></li>
+										<li><a href="#">Bramante</a></li>
+										<li><a href="#">Fra' Bartolomeo di San Marco</a></li>
+										<li><a href="#">Mariotto Albertinelli</a></li>
+										<li><a href="#">Rafaellin del Garbo</a></li>
+										<li><a href="#">Torrigiano</a></li>
+										<li><a href="#">Giuliano e Antonio da Sangallo</a></li>
+										<li><a href="#">Raffaello Sanzio</a></li>
+										<li><a href="#">Guglielmo da Marcilla</a></li>
+										<li><a href="#">Cronaca</a></li>
+										<li><a href="#">David e Benedetto Ghirlandai</a></li>
+										<li><a href="#">Domenico Puligo</a></li>
+										<li><a href="#">Andrea da Fiesole</a></li>
+										<li><a href="#">Benedetto da Rovezzano</a></li>
+										<li><a href="#">Baccio da Monte Lupo</a></li>
+										<li><a href="#">Lorenzo di Credi</a></li>
+										<li><a href="#">Boccaccino Cremonese</a></li>
+										<li><a href="#">Lorenzetto</a></li>
+										<li><a href="#">Baldassarre Peruzzi</a></li>
+										<li><a href="#">Pellegrino da Modana</a></li>
+										<li><a href="#">Giovan Francesco detto il Fattore</a></li>
+										<li><a href="#">Andrea del Sarto</a></li>
+										<li><a href="#">Properzia de' Rossi</a></li>
+										<li><a href="#">Alfonso Lombardi</a></li>
+										<li><a href="#">Michelangelo Senese</a></li>
+										<li><a href="#">Girolamo Santacroce</a></li>
+										<li><a href="#">Dosso e Battista</a></li>
+										<li><a href="#">Giovanni Antonio Licino</a></li>
+										<li><a href="#">Il Rosso</a></li>
+										<li><a href="#">Giovanni Antonio Sogliani</a></li>
+										<li><a href="#">Girolamo da Trevigi</a></li>
+										<li><a href="#">Polidoro da Caravaggio e Maturino fiorentino</a></li>
+										<li><a href="#">Bartolomeo da Bagnacavallo</a></li>
+										<li><a href="#">Marco Calabrese</a></li>
+										<li><a href="#">Morto da Feltro</a></li>
+										<li><a href="#">Francia Bigio</a></li>
+										<li><a href="#">Francesco Mazzola</a></li>
+										<li><a href="#">Il Palma</a></li>
+										<li><a href="#">Franscesco Granacci</a></li>
+										<li><a href="#">Baccio d'Agnolo</a></li>
+										<li><a href="#">Valerio Vicentino</a></li>
+										<li><a href="#">Antonio da Sangallo</a></li>
+										<li><a href="#">Giulio Romano</a></li>
+										<li><a href="#">Sebastiano Veneziano</a></li>
+										<li><a href="#">Perin del Vaga</a></li>
+										<li><a href="#">Michelangelo Buonarroti</a></li>
+									</ul>
 								</div>
 							</div>
 						</li>
@@ -289,7 +282,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-4">
-							<p>Progetto per l'esame di Digital Humanities e Patrimonio Culturale A.A.2020/21</p>
+							<p>Progetto per l'esame di Digital Humanities e Patrimonio Culturale, Arti Visive A.A.2020/21</p>
 							<p>prof.ssa: Francesca Tomasi</p>
 							<p>tutor: Martina Dello Buono</p>
 						</div>

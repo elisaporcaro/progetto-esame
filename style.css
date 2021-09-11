@@ -1,4 +1,4 @@
-/* elementi comuni a tutte le pagine*/
+/* elementi comuni a tutte le pagine----------------------------------*/
 body {
 	background-color: black;
 	color: white;
@@ -17,12 +17,6 @@ h2 {
 h3 {
 	color: #ffff80;
 	font-size: 20px;
-}
-#navlink {
-	color: #d55d5d;
-}
-.dropdown-menu {
-	background-color: #4d4d4d;
 }
 #cerca {
 	background-color: black;
@@ -68,15 +62,19 @@ footer a:visited {
 .btn-correl{
 	background-color: #511515;	
 }
-#fine, select {
+#fine, select, #percorsi {
 	width: 150px;
 }
 #inizio {
 	width: 150px;
 	margin-top: 10px;
 }
+.breadcrumb {
+	margin-top: 10px;
+	background-color: gb(255, 255, 255, 0.4);
+}
 
-/*pagina index-------------------*/
+/*pagina index--------------------------------------------------------*/
 
 .frase {
 	color: yellow;
@@ -89,10 +87,6 @@ footer a:visited {
   	background-color: black;
   	opacity: 0.7;
 }
-.dropdown-item {
-	background-color: #0d0d0d;
-	color: white;
-}
 #intro {
 	padding-top: 15px;
 }
@@ -101,26 +95,22 @@ strong {
 }
 
 
-/*pagina percorsi --------------*/
+/*pagina percorsi ----------------------------------------------------*/
 #modifica {
 	font-size: 23px;
 	padding-bottom: 3%;
 	padding-top: 2%;
 }
 
-/*pagina sala ------------------*/
+/*pagina sala --------------------------------------------------------*/
 #striscia {
 	padding: 20px;
 	display: block;
 	margin: auto;
 	overflow: scroll;
 }
-.breadcrumb {
-	margin-top: 10px;
-	background-color: gb(255, 255, 255, 0.4);
-}
 
-/*pagina  leonardo -------------*/
+/*pagina  leonardo ---------------------------------------------------*/
 #leo {
 	width: 130px;
 	float: left;
@@ -149,9 +139,6 @@ hr {
 tr {
 	border-bottom: 0.5px solid white;
 }
-#descr {
-	float: right;
-}
 h5 {
 	color: #ffff80;
 }
@@ -165,9 +152,6 @@ h5 {
 	background-color: #101010;
 	border-color: white;
 }
-.card-text {
-	color: white;
-}
 .card-leggi {
 	color: #d55d5d;
 }
@@ -177,7 +161,7 @@ h5 {
 	height: 250px;
 }
 
-/*pagina testo -----------------*/
+/*pagina testo -------------------------------------------------------*/
 iframe {
 	height: 625px;
 	width: 100%;
