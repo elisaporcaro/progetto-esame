@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Leonardo da Vinci-Museo Vasariano</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="Elisa Maria Porcaro">
@@ -13,6 +12,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=WindSong:wght@500&display=swap" rel="stylesheet">
 	<!-- Importo jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<title>Leonardo da Vinci-Museo Vasariano</title>
 </head>
 <body>
 	<header>			
@@ -106,7 +107,6 @@
 								$('.opera-card').show();
 							}
 						}
-						
 					</script>
 					<select onChange="cerca($(this).find(':selected').text())">
 						<option value="">luogo</option>
@@ -132,7 +132,6 @@
 								$('.opera-card').show();
 							}
 						}
-						
 					</script>
 					<select onChange="cercatec($(this).find(':selected').text())">
 						<option value="">tecnica artistica</option>
@@ -156,7 +155,6 @@
 								$('.opera-card').show();
 							}
 						}
-						
 					</script>
 					<select onChange="cercamus($(this).find(':selected').text())">
 						<option value="">istituzione conservatrice</option>
@@ -184,14 +182,12 @@
 								$('.opera-card').show();
 							}
 						}
-						
 					</script>
 					<input type="text" id="inizio" placeholder="data iniziale">
 					<input type="text" id="fine" placeholder="data finale">
 					<button onclick="cercadat($('#inizio').val(), $('#fine').val())">cerca</button>
-						
-
 				</div>
+
 				<br/>
 				<h3>Cerca nel sito:</h3>
 				<div class="btn-group-vertical">
@@ -322,7 +318,6 @@
 													</div>
 												</div>
 											</div>
-											
 										</div>
 										<!-- pagination -->
 										<nav aria-label="Page navigation example">
@@ -462,6 +457,7 @@
 			</div>
 		</div>
 	</div>
+	
 	<!-- footer-->
 	<footer>
 		<div class="container-fluid">

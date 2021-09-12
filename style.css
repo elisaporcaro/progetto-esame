@@ -94,7 +94,6 @@ strong {
 	color: #d9d9d9;
 }
 
-
 /*pagina percorsi ----------------------------------------------------*/
 #modifica {
 	font-size: 23px;
@@ -169,7 +168,7 @@ iframe {
 #testo {
 	padding-top: 20px;
 }
-/*pagina item ------------------*/
+/*pagina item --------------------------------------------------------*/
 .card-img-top {
 	width: 400px;
 	display: block;
