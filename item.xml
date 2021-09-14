@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xmlns:dc="http://purl.org/dc/elements/1.1/"
-xmlns:dcterms="http://purl.org/dc/terms/">
-<dc:title>La Gioconda</dc:title>
-<dc:author>Leonardo da Vinci</dc:author>
-<dc:date>1503-1506</dc:date>
-<dc:subject>Ritratto</dc:subject>
-<dc:subject>olio su tavola</dc:subject>
-<dc:description>Ritratto di Lisa Gherardini, moglie di Francesco del Giocondo</dc:description>
-<dc:type>immagine</dc:type>
-<dc:identifier>img/gioconda_all.jpg</dc:identifier>
-<dc:coverage>Parigi, Museo del Louvre</dc:coverage>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" mlns:dcterms="http://purl.org/dc/terms/">
+	<collection xml:id="Museo Virtuale delle Vite Vasariane">
+		<item n="3.1.1" xml:id="ITEM">
+
+			<dc:title xsi:type="mp:CONA" mp:ref="http://vocab.getty.edu/page/cona/700000213">La Gioconda</dc:title>
+			<dc:creator xsi:type="mp:ULAN" mp:ref="http://vocab.getty.edu/page/ulan/500010879">Leonardo da Vinci</dc:creator>
+			<dc:date type="creation">1503-1506</dc:date>
+
+			<dc:subject xml:lang="it">arte, arti figurative, dipinto, olio su tavola, ritratto</dc:subject>
+			<dc:subject xsi:type="dcterms:UDC">75</dc:subject>
+			<dc:subject xml:lang="it">Rinascimento</dc:subject>
+			<dc:subject xsi:type="dcterms:UDC">7.034</dc:subject>
+
+			<dc:description>Ritratto di Lisa Gherardini, moglie di Francesco del Giocondo realizzato da Leonardo da Vinci</dc:description>
+
+			<dc:type>immagine</dc:type>
+			<dc:format xsi:type="dcterms:IMT">image/jp2</dc:format>
+			<dc:format>77*53 cm</dc:format>
+			<dc:identifier xsi:type="dcterms:URI">https://github.com/elisaporcaro/progetto-esame/blob/cdb2a90436a19351d4e61ef642844e9c47532f29/img/gioconda_all.jpg</dc:identifier>
+			<dc:coverage xsi:type="mp:CONA" mp:ref="http://vocab.getty.edu/page/cona/700008630">Museo del Louvre</dc:coverage>
+			<dc:coverage xsi:type="mp:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7008038">Parigi </dc:coverage>
+		</item>
+	</collection>
 </metadata>
