@@ -9,7 +9,7 @@
 
 	<collection xml:id="Museo Virtuale delle Vite Vasariane">
 		<item  n="3.1" xml:id="CAP:III.1">
-			<dc:identifier xsi:type="mp:SBN" mp:ref="http://www.bibliotecaitaliana.it/testo/bibit001650">IT\ICCU\CFI\0114559</dc:identifier>
+			<dc:identifier>IT\ICCU\CFI\0114559</dc:identifier>
 			<dc:title>Leonardo da Vinci, pittore e scultore fiorentino</dc:title>
 			<dc:creator xsi:type="mp:VIAF" mp:ref="http://viaf.org/viaf/46768219">Vasari, Giorgio</dc:creator>
 			<dc:date type="creation">1550</dc:date>
