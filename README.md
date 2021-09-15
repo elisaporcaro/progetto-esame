@@ -1,6 +1,5 @@
 # progetto-esame
-## Museo Virtuale delle Vite Vasariane
-# https://elisaporcaro.github.io/progetto-esame/#
+## Museo Virtuale delle Vite Vasariane: https://elisaporcaro.github.io/progetto-esame/#
 
 Le Vite di Vasari sono il primo testo di storia dell'arte italiana in senso moderno; in questo libro Vasarri ha selezionato e raccolto gli artisti e le opere a suo parere più importanti dell'età moderna, dal '300 al pieno '500, con un intento sia divulgativo che educativo, come una guida artistica e morale per le future generazioni di artisti.
 
