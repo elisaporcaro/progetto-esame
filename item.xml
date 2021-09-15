@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" mlns:dcterms="http://purl.org/dc/terms/">
+<mp:metadata xmlns:mp="http://example.org/MyProject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd">
 	<collection xml:id="Museo Virtuale delle Vite Vasariane">
 		<item n="3.1.1" xml:id="ITEM">
 			<dc:title xsi:type="mp:CONA" mp:ref="http://vocab.getty.edu/page/cona/700000213">La Gioconda</dc:title>
@@ -21,4 +21,4 @@
 			<dc:coverage xsi:type="mp:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7008038">Parigi </dc:coverage>
 		</item>
 	</collection>
-</metadata>
+</mp:metadata>

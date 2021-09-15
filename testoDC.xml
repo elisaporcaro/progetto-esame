@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<library
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns="http://www.iccu.sbn.it/metaAG1.pdf"
-	xsi:schemaLocation="http://www.iccu.sbn.it/metaAG1.pdf metadigit.xsd"
-	version="2.0"
-	xml:id="BIBIT">
+<mp:metadata xmlns:mp="http://example.org/MyProject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd">
+	<library>
+		<collection xml:id="Museo Virtuale delle Vite Vasariane">
+			<item  n="3.1" xml:id="CAP:III.1">
+				<dc:identifier xsi:type="mp:SBN" mp:ref="http://www.bibliotecaitaliana.it/testo/bibit001650">IT\ICCU\CFI\0114559</dc:identifier>
+				<dc:title>Leonardo da Vinci, pittore e scultore fiorentino</dc:title>
+				<dc:creator xsi:type="mp:VIAF" mp:ref="http://viaf.org/viaf/46768219">Vasari, Giorgio</dc:creator>
+				<dc:date type="creation">1550</dc:date>
+				<dc:date type="pubblication">2004</dc:date>
+				<dc:subject xsi:lang="it">Storia dell'arte. Italia</dc:subject>
+				<dc:subject xsi:type="mp:BNCF">709.45</dc:subject>
+				<dc:subject>Memorialistica, biografie di artisti</dc:subject>
+				<dc:subject xsi:type="dcterms:UDC">929:75</dc:subject>
+				<dc:subject>Rinascimento</dc:subject>
+				<dc:subject xsi:type="dcterms:UDC">7.034</dc:subject>
+				<dc:description>capitolo tratto dal testo di Giorgio Vasari "Le Vite de' più eccellenti architetti, pittori, et scultori italiani, da Cimabue insino a' tempi nostri : nell'edizione per i tipi di Lorenzo Torrentino, Firenze 1550 - Torino: G. Einaudi, 1986" dedicato a Leonardo da Vinci</dc:description>
 
-	<dc:identifier xsi:type="mp:SBN" mp:ref="http://www.bibliotecaitaliana.it/testo/bibit001650">IT\ICCU\CFI\0114559</dc:identifier>
-	<dc:title>Leonardo da Vinci, pittore e scultore fiorentino</dc:title>
-	<dc:creator xsi:type="mp:VIAF" mp:ref="http://viaf.org/viaf/46768219">Vasari, Giorgio</dc:creator>
-	<dc:date type="creation">1550</dc:date>
-	<dc:date type="pubblication">2004</dc:date>
-	<dc:subject xsi:lang="it">Storia dell'arte. Italia</dc:subject>
-	<dc:subject xsi:type="mp:BNCF">709.45</dc:subject>
-	<dc:subject>Memorialistica, biografie di artisti</dc:subject>
-	<dc:subject xsi:type="dcterms:UDC">929:75</dc:subject>
-	<dc:subject>Rinascimento</dc:subject>
-	<dc:subject xsi:type="dcterms:UDC">7.034</dc:subject>
-	<dc:description>capitolo tratto dal testo di Giorgio Vasari "Le Vite de' più eccellenti architetti, pittori, et scultori italiani, da Cimabue insino a' tempi nostri : nell'edizione per i tipi di Lorenzo Torrentino, Firenze 1550 - Torino: G. Einaudi, 1986" dedicato a Leonardo da Vinci</dc:description>
-	<dc:publisher>Roma : Biblioteca Italiana</dc:publisher>
-	<dc:type>text</dc:type>
-	<dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
-	<dc:identifier> IT\ICCU\CFI\0114559</dc:identifier>
-	<dc:language>ita</dc:language>
-	<dc:language>lat</dc:language>
-	<dc:source xsi:type="dcterms:URI">http://www.bibliotecaitaliana.it/testo/bibit001650</dc:source>
-	<dc:coverage>Bologna, 2021-09-16</dc:coverage>
-	<dc:rights>Accesso libero per uso personale o scientifico. Ogni uso commercile è vietato</dc:rights>
-	
-</library>
+				<dc:publisher>Roma : Biblioteca Italiana</dc:publisher>
+				<dc:type>text</dc:type>
+				<dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+
+				<dc:identifier> IT\ICCU\CFI\0114559</dc:identifier>
+				<dc:language>ita</dc:language>
+				<dc:language>lat</dc:language>
+				<dc:source xsi:type="dcterms:URI">http://www.bibliotecaitaliana.it/testo/bibit001650</dc:source>
+				<dc:coverage>Bologna, 2021-09-16</dc:coverage>
+				<dc:rights>Accesso libero per uso personale o scientifico. Ogni uso commercile è vietato</dc:rights>
+			</item>
+		</collection>
+	</library>
+</mp:metadata>
