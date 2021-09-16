@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:si="https://elisaporcaro.github.io/progetto-esame/#">
+
+<rdf:Description rdf:about="https://elisaporcaro.github.io/progetto-esame/item.html">
+	<si:title>La Gioconda</si:title>
+	<si:creator>Leonardo da Vinci</si:creator>
+	<si:date>1503-1506</si:date>
+	<si:subject>arte</si:subject>
+	<si:subject>dipinto</si:subject>
+	<si:subject>olio su tavola</si:subject>
+	<si:subject>ritratto</si:subject>
+	<si:subject>Rinascimento</si:subject>
+</rdf:Description>
+</rdf:RDF>
+
