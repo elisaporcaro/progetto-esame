@@ -1,0 +1,39 @@
+<?xml version="1.0"?>    
+<rdf:RDF    xmlns:dc="http://purl.org/dc/elements/1.1/"    
+xmlns:edm="http://www.europeana.eu/schemas/edm/"    
+xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"    
+xmlns:foaf="http://xmlns.com/foaf/0.1/"    
+xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/"    
+xmlns:oai="http://www.openarchives.org/OAI/2.0/"    
+xmlns:owl="http://www.w3.org/2002/07/owl#"    
+xmlns:rdf="http://www.w3.org/1999/02/22-­‐rdf-­‐syntax-­‐ns#"    
+xmlns:ore="http://www.openarchives.org/ore/terms/"    
+xmlns:skos="http://www.w3.org/2004/02/skos/core#"    
+xmlns:dcterms="http://purl.org/dc/terms/">    
+
+<edm:ProvidedCHO rdf:about="https://elisaporcaro.github.io/progetto-esame/item2.html">
+	<dc:creator rdf:resource="https://www.europeana.eu/it/collections/person/146741-leonardo-da-vinci">Leonardo da Vinci</dc:creator>
+	<dc:creator rdf:resource="https://www.europeana.eu/it/collections/person/62248-andrea-del-verrocchio">Andrea del Verrocchio</dc:creator>
+	<dc:title>Battesimo di Cristo</dc:title>
+	<dcterms:created>1472-1475</dcterms:created>
+	<dc:desctiption>Sulle rive del fiume Giordano, in Palestina, Gesù riceve il sacramento del battesimo da san Giovanni, che gli terge la testa versando dell’acqua</dc:desctiption>
+	<cd:type rdf:resource="http://vocab.getty.edu/page/aat/300178684">pittura ad olio</cd:type>
+	<dcterms:extent>177x151 cm</dcterms:extent>
+	<edm:currentLocation rdf:resource="http://vocab.getty.edu/page/tgn/7003163">Firenze</edm:currentLocation>
+</edm:ProvidedCHO>
+
+<edm:WebResource    rdf:about="https://elisaporcaro.github.io/progetto-esame/item2.html">  
+	<dc:format>image/jp2</dc:format>
+	<dcterms:extent>509x600 px</dcterms:extent>
+</edm:WebResource>
+
+<edm:Place rdf:resource="https://elisaporcaro.github.io/progetto-esame/item2.html">
+	<skos:prefLabel xml:lang="it">Firenze</skos:prefLabel>
+	<skos:altLabel xml:lang="it">Museo degli Uffizi</skos:altLabel>
+</edm:Place>
+
+<edm:TimeSpan rdf:resource="https://elisaporcaro.github.io/progetto-esame/item2.html">
+	<skos:prefLabel xml:lang="it">Rinascimento</skos:prefLabel>
+</edm:TimeSpan>
+
+</rdf:RDF>
