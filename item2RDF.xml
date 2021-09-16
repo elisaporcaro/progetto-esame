@@ -4,14 +4,14 @@
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:si="https://elisaporcaro.github.io/progetto-esame/#">
 
-<rdf:Description rdf:about="https://elisaporcaro.github.io/progetto-esame/item.html">
-	<si:title>La Gioconda</si:title>
+<rdf:Description rdf:about="https://elisaporcaro.github.io/progetto-esame/item2.html">
+	<si:title>Battesimo di Cristo</si:title>
+	<si:creator>Andrea del Verrocchio</si:creator>
 	<si:creator>Leonardo da Vinci</si:creator>
-	<si:date>1503-1506</si:date>
+	<si:date>1472-1475</si:date>
 	<si:subject>arte</si:subject>
 	<si:subject>dipinto</si:subject>
-	<si:subject>olio su tavola</si:subject>
-	<si:subject>ritratto</si:subject>
+	<si:subject>olio e tempera su tavola</si:subject>
 	<si:subject>Rinascimento</si:subject>
 </rdf:Description>
 </rdf:RDF>
