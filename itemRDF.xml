@@ -17,7 +17,6 @@ xmlns:dcterms="http://purl.org/dc/terms/">
 	<dcterms:alternativexml>Monnalisa</dcterms:alternativexml>
 	<dcterms:created>1503-1506</dcterms:created>
 	<dc:desctiption>Ritratto di Lisa Gherardini, moglie di Francesco del Giocondo realizzato da Leonardo da Vinci</dc:desctiption>
-	<cd:type rdf:resource="http://vocab.getty.edu/page/aat/300178684">pittura ad olio</cd:type>
 	<dcterms:extent>77x53 cm</dcterms:extent>
 	<edm:currentLocation rdf:resource="http://vocab.getty.edu/page/tgn/7008038">Parigi</edm:currentLocation>
 </edm:ProvidedCHO>
