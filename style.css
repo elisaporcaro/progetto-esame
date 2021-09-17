@@ -52,6 +52,7 @@ a:active {
 }
 footer {
 	background-color: brown;
+	padding: 1%;
 }
 footer a:link {
 	color: #FF7F50;
