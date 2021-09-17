@@ -17,7 +17,7 @@
 				<dc:description>capitolo tratto dal testo di Giorgio Vasari "Le Vite de' più eccellenti architetti, pittori, et scultori italiani, da Cimabue insino a' tempi nostri : nell'edizione per i tipi di Lorenzo Torrentino, Firenze 1550 - Torino: G. Einaudi, 1986" dedicato a Leonardo da Vinci</dc:description>
 
 				<dc:publisher>Roma : Biblioteca Italiana</dc:publisher>
-				<dc:type>text</dc:type>
+				<dc:type>capitolo</dc:type>
 				<dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
 
 				<dc:language>ita</dc:language>
