@@ -13,22 +13,22 @@ xmlns:dcterms="http://purl.org/dc/terms/">
 
 <edm:ProvidedCHO rdf:about="https://elisaporcaro.github.io/progetto-esame/item.html">
 	<dc:creator rdf:resource="https://www.europeana.eu/it/collections/person/146741-leonardo-da-vinci">Leonardo da Vinci</dc:creator>
-	<dc:title>La Gioconda</dc:title>
-	<dcterms:alternativexml>Monnalisa</dcterms:alternativexml>
+	<dc:title rdf:resource="http://vocab.getty.edu/page/cona/700000213">La Gioconda</dc:title>
+	<dcterms:alternativexml xml:lang="it">Monnalisa</dcterms:alternativexml>
 	<dcterms:created>1503-1506</dcterms:created>
 	<dc:desctiption>Ritratto di Lisa Gherardini, moglie di Francesco del Giocondo realizzato da Leonardo da Vinci</dc:desctiption>
 	<dcterms:extent>77x53 cm</dcterms:extent>
 	<edm:currentLocation rdf:resource="http://vocab.getty.edu/page/tgn/7008038">Parigi</edm:currentLocation>
 </edm:ProvidedCHO>
 
-<edm:WebResource    rdf:about="https://elisaporcaro.github.io/progetto-esame/item.html">  
+<edm:WebResource rdf:about="https://elisaporcaro.github.io/progetto-esame/item.html">  
 	<dc:format>image/jp2</dc:format>
 	<dcterms:extent>728x1085 px</dcterms:extent>
 </edm:WebResource>
 
 <edm:Place rdf:resource="https://elisaporcaro.github.io/progetto-esame/item.html">
-	<skos:prefLabel xml:lang="it">Parigi</skos:prefLabel>
-	<skos:altLabel xml:lang="it">Museo del Louvre</skos:altLabel>
+	<skos:prefLabel xml:lang="it" rdf:resource="http://vocab.getty.edu/page/tgn/7008038">Parigi</skos:prefLabel>
+	<skos:altLabel xml:lang="it" rdf:resource="http://vocab.getty.edu/page/cona/700008630">Museo del Louvre</skos:altLabel>
 </edm:Place>
 
 <edm:TimeSpan rdf:resource="https://elisaporcaro.github.io/progetto-esame/item.html">
