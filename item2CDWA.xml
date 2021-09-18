@@ -3,7 +3,6 @@
 
 		<cdwalite:objectWorkTypeWrap>
 			<cdwalite:objectWorkType termsource="AAT" termsourceID="300178684">pittura ad olio</cdwalite:objectWorkType>
-			<cdwalite:objectWorkType termsource="AAT" termsourceID="300015062">pittura a tempera</cdwalite:objectWorkType>
 		</cdwalite:objectWorkTypeWrap>
 
 		<cdwalite:titleWrap>
