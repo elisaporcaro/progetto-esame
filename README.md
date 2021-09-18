@@ -7,5 +7,5 @@ Il progetto del Museo Virtuale quindi si pone l'obiettivo di trasporre in chiave
 
 Elisa Maria Porcaro <br/>
 progetto per il corso "Digital Humanities e Patrimonio Culturale" A.A.2020/21 <br/>
-Arti Visive</br>
+LM Arti Visive</br>
 Alma Mater Studiorum Bologna
