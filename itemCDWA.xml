@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<library xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd" xml:id="Museo Virtuale delle Vite Vasariane">
+
+		<cdwalite:objectWorkTypeWrap>
+			<cdwalite:objectWorkType termsource="AAT" termsourceID="300178684">pittura ad olio</cdwalite:objectWorkType>
+		</cdwalite:objectWorkTypeWrap>
+
+		<cdwalite:titleWrap>
+			<cdwalite:titleSet>
+				<cdwalite:title pref="preferred" lang="it">La Gioconda</cdwalite:title>
+			</cdwalite:titleSet>
+			<cdwalite:titleSet>
+				<cdwalite:title pref="alternate" lang="it">Monnalisa</cdwalite:title>
+			</cdwalite:titleSet>
+		</cdwalite:titleWrap>
+
+		<cdwalite:indexingCreatorWrap>
+			<cdwalite:indexingCreatorSet>
+				<cdwalite:nameCreatorSet><cdwalite:nameCreator type="personalName" termsource="ULAN" termsourceID="500010879">Leonardo da Vinci</cdwalite:nameCreator></cdwalite:nameCreatorSet>
+			</cdwalite:indexingCreatorSet>
+			<cdwalite:nationalityCreator>Italia</cdwalite:nationalityCreator>
+			<cdwalite:vitalDatesCreator birthdate="1452-04-15" deathdate="1519-05-02">Anchiano, 15 aprile 1452 – Amboise, 2 maggio 1519</cdwalite:vitalDatesCreator>
+			<cdwalite:genderCreator>Maschile</cdwalite:genderCreator>
+			<cdwalite:roleCreator termsource="AAT" termsourceID="300411314">Pittore</cdwalite:roleCreator>
+		</cdwalite:indexingCreatorWrap>
+
+		<cdwalite:displayMeasurements>77 x53 cm</cdwalite:displayMeasurements>
+		<cdwalite:indexingMeasurementsWrap>
+			<cdwalite:indexingMeasurementsSet>
+				<cdwalite:measurementsSet value="77" unit="cm" type="height"></cdwalite:measurementsSet>
+				<cdwalite:measurementsSet value="53" unit="cm" type="width"></cdwalite:measurementsSet>
+			</cdwalite:indexingMeasurementsSet>
+		</cdwalite:indexingMeasurementsWrap>
+
+		<cdwalite:displayMaterialsTech>olio su tavola</cdwalite:displayMaterialsTech>
+		<cdwalite:indexingMaterialsTechWrap>
+			<cdwalite:indexingMaterialsTechSet>
+				<cdwalite:termMaterialsTech termsource="AAT" termsourceID="300178684">pittura ad olio</cdwalite:termMaterialsTech>
+				<cdwalite:termMaterialsTech termsource="AAT" termsourceID="300162666">tavola</cdwalite:termMaterialsTech>
+			</cdwalite:indexingMaterialsTechSet>
+		</cdwalite:indexingMaterialsTechWrap>
+
+		<cdwalite:styleWrap>
+			<cdwalite:style termsource="UDC" termsourceID="7.034">Rinascimento</cdwalite:style>
+		</cdwalite:styleWrap>
+
+		<cdwalite:displayCreationDate>1503-1506</cdwalite:displayCreationDate>
+		<cdwalite:indexingDatesWrap>
+			<cdwalite:indexingDatesSet>
+				<cdwalite:earliestDate>1503</cdwalite:earliestDate>
+				<cdwalite:latestDate> 1506</cdwalite:latestDate>
+			</cdwalite:indexingDatesSet>
+		</cdwalite:indexingDatesWrap>
+
+		<cdwalite:locationWrap>
+			<cdwalite:locationSet>
+				<cdwalite:locationName type="currentRepository" termsource="CONA" termsourceID="http://vocab.getty.edu/page/cona/700008630">Museo del Louvre (Parigi, Francia)</cdwalite:locationName>
+			</cdwalite:locationSet>
+		</cdwalite:locationWrap>
+
+		<cdwalite:indexingSubjectWrap>
+			<cdwalite:indexingSubjectSet>
+				<cdwalite:subjectTerm type="conceptTerm" termsource="AAT" termsourceID="aat300015637">ritratto</cdwalite:subjectTerm>
+			</cdwalite:indexingSubjectSet>
+		</cdwalite:indexingSubjectWrap>
+
+		<cdwalite:descriptiveNoteWrap>
+			<cdwalite:descriptiveNoteSet>
+				<cdwalite:descriptiveNote>Il ritratto mostra una donna seduta a mezza figura, girata a sinistra, ma con il volto frontale, rivolto verso lo spettatore. Le mani sono dolcemente adagiate in primo piano, mentre sullo sfondo si apre un vasto paesaggio fluviale, con il consueto repertorio leonardesco di picchi rocciosi e speroni.La donna è stretta in una pesante veste scollata, secondo la moda dell'epoca, con un ricamo sul petto e le maniche in tessuto diverso.Sulla testa ricade un velo trasparente che tiene fermi i lunghi capelli sciolti, che scivola lungo la spalla dove si trova appoggiato anche un leggero drappo, simile a una sciarpa.La Gioconda fa capolino da una sorta di loggia panoramica, il cui paesaggio sullo sfondo richiamerebbe, secondo alcuni, un preciso punto della Toscana, e cioè  dove l'Arno supera le campagne di Arezzo e riceve le acque della Val di Chiana.</cdwalite:descriptiveNote>
+			</cdwalite:descriptiveNoteSet>
+		</cdwalite:descriptiveNoteWrap>
+
+		<cdwalite:resourceWrap>
+			<cdwalite:linkResource type="URI">hhttps://github.com/elisaporcaro/progetto-esame/blob/74218ace0f109dcd49225fd16ca018de8e1dcfa3/img/gioconda_all.jpg</cdwalite:linkResource>
+			<cdwalite:resourceID>3.1.1</cdwalite:resourceID>
+			<cdwalite:resourceType termsource="AAT" termsourceID="300215302">immagine digitale</cdwalite:resourceType>
+		</cdwalite:resourceWrap>
+
+	</library>

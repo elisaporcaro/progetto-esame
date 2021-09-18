@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<library xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd" xml:id="Museo Virtuale delle Vite Vasariane">
+
+		<cdwalite:objectWorkTypeWrap>
+			<cdwalite:objectWorkType termsource="AAT" termsourceID="300178684">pittura ad olio</cdwalite:objectWorkType>
+		</cdwalite:objectWorkTypeWrap>
+		<cdwalite:objectWorkType termsource="AAT" termsourceID="300015062">pittura a tempera</cdwalite:objectWorkType>
+		</cdwalite:objectWorkTypeWrap>
+
+		<cdwalite:titleWrap>
+			<cdwalite:titleSet>
+				<cdwalite:title lang="it">Battesimo di Cristo</cdwalite:title>
+			</cdwalite:titleSet>
+		</cdwalite:titleWrap>
+
+		<cdwalite:indexingCreatorWrap>
+			<cdwalite:indexingCreatorSet>
+				<cdwalite:nameCreatorSet><cdwalite:nameCreator type="personalName" termsource="ULAN" termsourceID="500010879">Leonardo da Vinci</cdwalite:nameCreator></cdwalite:nameCreatorSet>
+			</cdwalite:indexingCreatorSet>
+			<cdwalite:nationalityCreator>Italia</cdwalite:nationalityCreator>
+			<cdwalite:vitalDatesCreator birthdate="1452-04-15" deathdate="1519-05-02">Anchiano, 15 aprile 1452 – Amboise, 2 maggio 1519</cdwalite:vitalDatesCreator>
+			<cdwalite:genderCreator>Maschile</cdwalite:genderCreator>
+			<cdwalite:roleCreator termsource="AAT" termsourceID="300411314">Pittore</cdwalite:roleCreator>
+			<cdwalite:indexingCreatorSet>
+				<cdwalite:nameCreatorSet><cdwalite:nameCreator type="personalName" termsource="ULAN" termsourceID="500003951">Andrea del Verrocchio</cdwalite:nameCreator></cdwalite:nameCreatorSet>
+			</cdwalite:indexingCreatorSet>
+			<cdwalite:nationalityCreator>Italia</cdwalite:nationalityCreator>
+			<cdwalite:vitalDatesCreator birthdate="1435" deathdate="1488">Firenze, 1435 – Venezia, 1488</cdwalite:vitalDatesCreator>
+			<cdwalite:genderCreator>Maschile</cdwalite:genderCreator>
+		<cdwalite:roleCreator termsource="AAT" termsourceID="300411314">Pittore</cdwalite:roleCreator>
+		</cdwalite:indexingCreatorWrap>
+
+		<cdwalite:displayMeasurements>177 x151 cm</cdwalite:displayMeasurements>
+		<cdwalite:indexingMeasurementsWrap>
+			<cdwalite:indexingMeasurementsSet>
+				<cdwalite:measurementsSet value="177" unit="cm" type="height"></cdwalite:measurementsSet>
+				<cdwalite:measurementsSet value="151" unit="cm" type="width"></cdwalite:measurementsSet>
+			</cdwalite:indexingMeasurementsSet>
+		</cdwalite:indexingMeasurementsWrap>
+
+		<cdwalite:displayMaterialsTech>olio e tempera su tavola</cdwalite:displayMaterialsTech>
+		<cdwalite:indexingMaterialsTechWrap>
+			<cdwalite:indexingMaterialsTechSet>
+				<cdwalite:termMaterialsTech termsource="AAT" termsourceID="300178684">pittura ad olio</cdwalite:termMaterialsTech>
+				<cdwalite:termMaterialsTech termsource="AAT" termsourceID="300015062">tempera</cdwalite:termMaterialsTech>
+				<cdwalite:termMaterialsTech termsource="AAT" termsourceID="300162666">tavola</cdwalite:termMaterialsTech>
+			</cdwalite:indexingMaterialsTechSet>
+		</cdwalite:indexingMaterialsTechWrap>
+
+		<cdwalite:styleWrap>
+			<cdwalite:style termsource="UDC" termsourceID="7.034">Rinascimento</cdwalite:style>
+		</cdwalite:styleWrap>
+
+		<cdwalite:displayCreationDate>1472-1475</cdwalite:displayCreationDate>
+		<cdwalite:indexingDatesWrap>
+			<cdwalite:indexingDatesSet>
+				<cdwalite:earliestDate>1472</cdwalite:earliestDate>
+				<cdwalite:latestDate> 1475</cdwalite:latestDate>
+			</cdwalite:indexingDatesSet>
+		</cdwalite:indexingDatesWrap>
+
+		<cdwalite:locationWrap>
+			<cdwalite:locationSet>
+				<cdwalite:locationName type="currentRepository" termsource="CONA" termsourceID="http://vocab.getty.edu/page/cona/700009652">Museo degli Uffizi (Firenze, Italia)</cdwalite:locationName>
+			</cdwalite:locationSet>
+		</cdwalite:locationWrap>
+
+		<cdwalite:indexingSubjectWrap>
+			<cdwalite:indexingSubjectSet>
+				<cdwalite:subjectTerm>Giovanni Battista battezza Gesù</cdwalite:subjectTerm>
+			</cdwalite:indexingSubjectSet>
+		</cdwalite:indexingSubjectWrap>
+
+		<cdwalite:descriptiveNoteWrap>
+			<cdwalite:descriptiveNoteSet>
+				<cdwalite:descriptiveNote>Sulle rive del fiume Giordano, in Palestina, Gesù riceve il sacramento del battesimo da san Giovanni, che gli terge la testa versando dell’acqua. Il Battista sorregge un’esile croce e un cartiglio iscritto con l’annuncio dell’avvento del Salvatore: ECCE AGNUS DEI [QUI TOLLIT PECCATA MUNDI] (Ecco l’agnello di Dio che toglie i peccati del mondo; Vangelo di Giovanni 1, 29). Assistono all’evento due angeli inginocchiati, uno dei quali sorregge la veste di Gesù.Lo storiografo Giorgio Vasari, alla metà del XVI secolo, racconta che per l’esecuzione del dipinto Andrea del Verrocchio si avvalse della collaborazione del suo giovane allievo Leonardo, che eseguì con straordinaria maestria la figura dell’angelo di sinistra, tanto da indispettire il più anziano Verrocchio. Gli studi odierni sono orientati a ritenere che l’intervento di Leonardo sia stato più ampio e che sia intervenuto anche nell’esecuzione del suggestivo paesaggio fluviale, su cui degrada la luce dorata, e della figura di Cristo. Era del resto usuale, nell’organizzazione delle officine artistiche del Quattrocento, che il capobottega ideasse l’opera, lasciando poi l’esecuzione di parti secondarie ad allievi e collaboratori. E’ probabile che nella tavola col Battesimo di Cristo, oltre a Verrocchio e a Leonardo, abbia lavorato anche un altro pittore, più vecchio, come suggerisce il carattere meno evoluto di alcuni dettagli, quali ad esempio le mani di Dio Padre e la colomba dello Spirito Santo, in alto. L’angelo di Leonardo spicca invece per l’articolata posa del corpo, di cui si scorge insieme le spalle e il tenero volto giovanile, come stesse voltandosi, e la straordinaria naturalezza dei panneggi del manto azzurro.</cdwalite:descriptiveNote>
+				<cdwalite:sourceDescriptiveNote>Daniela Parenti,scheda di catalogo, useo degli Uffizi</cdwalite:sourceDescriptiveNote>
+			</cdwalite:descriptiveNoteSet>
+		</cdwalite:descriptiveNoteWrap>
+
+		<cdwalite:inscriptionsWrap>
+			<cdwalite:inscriptions>cartiglio sulla croce: ECCE AGNUS DEI [QUI TOLLIT PECCATA MUNDI] (Ecco l’agnello di Dio che toglie i peccati del mondo; Vangelo di Giovanni 1, 29)</cdwalite:inscriptions>
+		</cdwalite:inscriptionsWrap>
+
+		<cdwalite:resourceWrap>
+			<cdwalite:linkResource type="URI">https://github.com/elisaporcaro/progetto-esame/blob/cdb2a90436a19351d4e61ef642844e9c47532f29/img/battesimo.jpg</cdwalite:linkResource>
+			<cdwalite:resourceID>3.1.2</cdwalite:resourceID>
+			<cdwalite:resourceType termsource="AAT" termsourceID="300215302">immagine digitale</cdwalite:resourceType>
+		</cdwalite:resourceWrap>
+
+	</library>
