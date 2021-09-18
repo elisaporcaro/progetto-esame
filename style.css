@@ -6,8 +6,9 @@ body {
 h1 {
 	font-family: 'WindSong', cursive;
 	font-size: 47px;
-	padding-top: 1%;
 	color: #ffff80;
+	text-align: center;
+	padding: 1% 70px;
 }
 h2 {
 	display: block;
@@ -18,14 +19,13 @@ h3 {
 	color: #ffff80;
 	font-size: 20px;
 }
-#cerca {
-	background-color: black;
-	padding-top: 2%;
-}
 #ricerca {
-	max-width: 150px;
 	display: block;
 	margin: auto;
+	float: left;
+}
+.btn-rosa {
+	background-color: #d55d5d;
 }
 .row {
 	padding-bottom: 2%;
@@ -107,6 +107,9 @@ strong {
 	padding: 20px;
 	display: block;
 	margin: auto;
+}
+#mappa {
+	overflow: scroll;
 }
 
 /*pagina  leonardo ---------------------------------------------------*/
