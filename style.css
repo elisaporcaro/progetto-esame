@@ -117,15 +117,10 @@ strong {
 	width: 130px;
 	float: left;
 }
-#b1 {
+#b1, #b2, #b3 {
 	color: white;
 }
-#b2 {
-	color: white;
-}
-#b3 {
-	color: white;
-}
+
 hr {
 	border: 0.5px solid white;
 }
@@ -144,12 +139,6 @@ tr {
 h5 {
 	color: #ffff80;
 }
-
-.correl {
-	width: 90px;
-	padding-left: 10%;
-	padding-top: 2%;
-}
 .card {
 	background-color: #101010;
 	border-color: white;
@@ -161,6 +150,11 @@ h5 {
 .col-md-8 .card-body {
 	border-bottom: 1px solid white;
 	height: 250px;
+}
+.correl {
+	width: 90px;
+	padding-left: 10%;
+	padding-top: 2%;
 }
 
 /*pagina testo -------------------------------------------------------*/
